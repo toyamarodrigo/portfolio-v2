@@ -3,8 +3,7 @@
 }
 
 body {
-  font-family: "Open Sans Condensed";
-  padding: 20px 60px;
+  font-family: 'Open Sans Condensed';
 }
 
 a {
@@ -12,3 +11,7 @@ a {
   color: black;
 }
 
+li {
+  list-style: none;
+  text-decoration: none;
+}

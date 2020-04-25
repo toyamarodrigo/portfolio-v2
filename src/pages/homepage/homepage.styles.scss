@@ -1,0 +1,132 @@
+.landing {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../assets/landing1.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .separator {
+    background-color: white;
+    width: 25%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .connect-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem auto;
+    max-width: 21rem;
+    li {
+      text-align: center;
+    }
+  }
+
+  .cv {
+    font-size: 0.9em !important;
+  }
+
+  .connect-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 20%;
+    font-size: 2rem;
+    outline: 0 solid;
+    text-decoration: none !important;
+    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-out;
+
+    &:hover,
+    &:focus {
+      background-color: currentColor !important;
+      outline: 0 solid;
+      transform: scale(1.12);
+      box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.4);
+
+      &::before {
+        opacity: 1;
+        transform: translate(-50%, -70%) scale(1);
+      }
+    }
+
+    &::before {
+      content: attr(aria-label);
+      position: absolute;
+      left: 50%;
+      bottom: -100%;
+      font-size: 0.8rem;
+      white-space: nowrap;
+      color: white;
+      background-color: #3b2d4a;
+      /* Less accessible option: background-color: inherit;*/
+      padding: 0.5em 0.7em 0.4em;
+      box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.4);
+      opacity: 0;
+      transform: translate(-50%, -180%) scale(0.7);
+      border-radius: 2em;
+      transition: 0.3s;
+    }
+
+    i {
+      padding: 0.5em;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .-clicked {
+    animation: pressed-social 0.3s ease-out;
+  }
+
+  @keyframes pressed-social {
+    0% {
+      transform: scale(1.1);
+    }
+
+    50% {
+      transform: scale(0.8);
+      background-color: #3b2d4a;
+      box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0);
+    }
+  }
+
+  .file,
+  .github {
+    color: #000 !important;
+  }
+
+  .fa-linkedin:active {
+    color: white;
+  }
+
+  .linkedin {
+    color: #007BB5;
+  }
+
+  .btn-landing {
+    margin-top: 15px;
+  }
+
+  .btn-slide {
+    padding: 8px 20px;
+    background: #3498db;
+    background-color: #dd006f;
+    color: white;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    letter-spacing: 1px;
+  }
+
+}
