@@ -17,16 +17,22 @@
 
   .connect-list {
     display: flex;
-    justify-content: space-between;
-    margin: 1.5rem auto;
+    justify-content: space-around;
     max-width: 21rem;
     li {
       text-align: center;
+      padding: 1.5em;
     }
   }
 
   .cv {
     font-size: 0.9em !important;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .connect-icon {

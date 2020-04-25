@@ -20,60 +20,54 @@ const HomePage = () => (
           <hr className="separator" />
         </Row>
 
-        <Container>
-          <Row>
-            <Col>
-              <ul className="connect-list">
-                <li>
-                  <a
-                    className="connect-icon file"
-                    href="https://github.com/toyamarodrigo"
-                    aria-label="CV"
-                  >
-                    <i className="fa fa-file-text cv"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="connect-icon linkedin"
-                    href="https://www.linkedin.com/in/rodrigo-toyama-1861b1154/"
-                    aria-label="LinkedIn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fa fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="connect-icon github"
-                    href="https://github.com/toyamarodrigo"
-                    aria-label="Github"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fa fa-github"></i>
-                  </a>
-                </li>
-                <li>
-                  <a className="connect-icon" href="#Contact" aria-label="Mail">
-                    <i className="fa fa-envelope-square mail"></i>
-                  </a>
-                </li>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
-
-        <Container>
-          <Row>
-            <Col>
-              <a className="btn-landing btn-slide" href="#Projects">
-                View My Projects
+        <Row className="justify-content-center">
+          <ul className="connect-list">
+            <li>
+              <a
+                className="connect-icon file"
+                href="https://github.com/toyamarodrigo"
+                aria-label="CV"
+              >
+                <i className="fa fa-file-text cv"></i>
               </a>
-            </Col>
-          </Row>
-        </Container>
+            </li>
+            <li>
+              <a
+                className="connect-icon linkedin"
+                href="https://www.linkedin.com/in/rodrigo-toyama-1861b1154/"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                className="connect-icon github"
+                href="https://github.com/toyamarodrigo"
+                aria-label="Github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a className="connect-icon" href="#Contact" aria-label="Mail">
+                <i className="fa fa-envelope-square mail"></i>
+              </a>
+            </li>
+          </ul>
+        </Row>
+
+        <Row>
+          <Col>
+            <a className="btn-landing btn-slide" href="#Projects">
+              View My Projects
+            </a>
+          </Col>
+        </Row>
       </Container>
     </div>
   </div>
