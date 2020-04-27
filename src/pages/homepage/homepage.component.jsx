@@ -1,5 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileAlt, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 import './homepage.styles.scss';
 
@@ -28,7 +31,10 @@ const HomePage = () => (
                 href="https://github.com/toyamarodrigo"
                 aria-label="CV"
               >
-                <i className="fa fa-file-text cv"></i>
+                <FontAwesomeIcon
+                  icon={faFileAlt}
+                  className="fa fa-file-text cv"
+                />
               </a>
             </li>
             <li>
@@ -39,7 +45,10 @@ const HomePage = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-linkedin"></i>
+                <FontAwesomeIcon
+                  icon={faLinkedinIn}
+                  className="fa fa-linkedin"
+                />
               </a>
             </li>
             <li>
@@ -50,24 +59,29 @@ const HomePage = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-github"></i>
+                <FontAwesomeIcon icon={faGithub} className="fa fa-github" />
               </a>
             </li>
             <li>
               <a className="connect-icon" href="#Contact" aria-label="Mail">
-                <i className="fa fa-envelope-square mail"></i>
+                <FontAwesomeIcon
+                  icon={faEnvelopeSquare}
+                  className="fa fa-envelope-square mail"
+                />
               </a>
             </li>
           </ul>
         </Row>
 
-        <Row>
-          <Col>
-            <a className="btn-landing btn-slide" href="#Projects">
-              View My Projects
-            </a>
-          </Col>
-        </Row>
+        <Container>
+          <Row className="justify-content-center">
+            <Col lg={4} className="text-center">
+              <a className="custom-btn" href="#Projects">
+                View My Projects
+              </a>
+            </Col>
+          </Row>
+        </Container>
       </Container>
     </div>
   </div>

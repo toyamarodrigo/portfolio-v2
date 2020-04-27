@@ -8,6 +8,18 @@ import AboutPage from './pages/aboutpage/aboutpage.component';
 import './App.css';
 
 class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      clicked: true,
+    };
+  }
+
+  animationClicked() {
+    this.setState({ clicked: !this.state.clicked });
+  }
+
   render() {
     return (
       <div>
