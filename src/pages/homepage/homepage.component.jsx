@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileAlt, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import Typed from 'react-typed';
 
 import './homepage.styles.scss';
 
@@ -14,7 +15,16 @@ const HomePage = () => (
           <Col>
             <h1 className="text-center">Hi, I'm Rodrigo</h1>
             <h3>
-              <span className="type"></span>
+              <Typed
+                strings={[
+                  '^300 Web Developer',
+                  '^300 Maker',
+                  '^400 Java Dev.^1000',
+                ]}
+                typeSpeed={100}
+                backSpeed={40}
+                loop
+              />
             </h3>
           </Col>
         </Row>
