@@ -22,7 +22,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="App">
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />

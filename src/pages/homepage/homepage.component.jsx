@@ -8,7 +8,7 @@ import Typed from 'react-typed';
 import './homepage.styles.scss';
 
 const HomePage = () => (
-  <div className="homepage">
+  <div id="page-wrap" className="homepage">
     <div className="landing d-flex align-items-center">
       <Container>
         <Row>

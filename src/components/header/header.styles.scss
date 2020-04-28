@@ -6,17 +6,6 @@
       position: relative;
     }
 
-    .navbar-toggler {
-      border-color: transparent;
-      &:focus {
-        outline: none !important;
-      }
-    }
-
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(251,251,252)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
-
     .nav-link {
       &::after {
         content: '';
@@ -34,30 +23,14 @@
       }
     }
   }
-  @media (max-width: 992px) {
+
+  @media (max-width: 768px) {
     .navbar-collapse {
-      position: absolute;
-      top: 5em;
-      right: 100%;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-bottom: 15px;
-      width: 100%;
-      transition: all 0.3s ease;
-      display: block;
-      background-color: rgb(13, 13, 13);
-      .navbar-nav {
-        padding-bottom: 100%;
-      }
-    }
-    .navbar-collapse.collapsing {
-      height: auto !important;
-      margin-right: 120%;
-      transform: translateX(100%);
-      display: block;
-    }
-    .navbar-collapse.show {
-      left: 70%;
+      background-color: rgb(5, 5, 5);
+      text-align: center;
+      font-size: 1.5rem;
+      opacity: 0.99;
     }
   }
+
 }
