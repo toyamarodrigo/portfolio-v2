@@ -6,6 +6,10 @@
       position: relative;
     }
 
+    #nav-icon1 {
+      margin-right: 8px;
+    }
+
     .nav-link {
       &::after {
         content: '';
