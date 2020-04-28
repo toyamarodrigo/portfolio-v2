@@ -16,10 +16,7 @@ const HomePage = () => (
             <h1 className="text-center title">Rodrigo Toyama</h1>
             <h3 className="text-center subtitle-typed">
               <Typed
-                strings={[
-                  '^300 Front-end Developer^1000',
-                  '^400 Maker^1000',
-                ]}
+                strings={['^300 Front-end Developer^1000', '^400 Maker^1000']}
                 typeSpeed={100}
                 backSpeed={40}
                 loop
@@ -40,10 +37,7 @@ const HomePage = () => (
                 href="https://github.com/toyamarodrigo"
                 aria-label="CV"
               >
-                <FontAwesomeIcon
-                  icon={faFileAlt}
-                  className="fa fa-file-text cv"
-                />
+                <FontAwesomeIcon icon={faFileAlt} className="svg-icon" />
               </a>
             </li>
             <li>
@@ -68,15 +62,12 @@ const HomePage = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faGithub} className="fa fa-github" />
+                <FontAwesomeIcon icon={faGithub} className="svg-icon" />
               </a>
             </li>
             <li>
               <a className="connect-icon" href="#Contact" aria-label="Mail">
-                <FontAwesomeIcon
-                  icon={faEnvelopeSquare}
-                  className="fa fa-envelope-square mail"
-                />
+                <FontAwesomeIcon icon={faEnvelopeSquare} className="svg-icon" />
               </a>
             </li>
           </ul>

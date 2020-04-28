@@ -30,7 +30,7 @@
     margin-bottom: 1.5rem;
   }
 
-  ul{
+  ul {
     margin-bottom: 1.5rem;
   }
 
@@ -72,11 +72,10 @@
       outline: 0 solid;
       transform: scale(1.12);
       box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.4);
-
-      &::before {
-        opacity: 1;
-        transform: translate(-50%, -70%) scale(1);
-      }
+    }
+    &:hover::before, &:focus::before {
+      opacity: 1;
+      transform: translate(-50%, -70%) scale(1);
     }
 
     &::before {
@@ -89,19 +88,22 @@
       color: white;
       background-color: #3b2d4a;
       /* Less accessible option: background-color: inherit;*/
-      padding: 0.5em 0.7em 0.4em;
+      padding: 0em 0.7em;
+      margin: 0 0 0.8em 0;
       box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.4);
       opacity: 0;
       transform: translate(-50%, -180%) scale(0.7);
       border-radius: 2em;
       transition: 0.3s;
+
+      pointer-events: none;
+      cursor: default;
     }
 
-    i {
-      padding: 0.5em;
-      &:hover {
-        color: #fff;
-      }
+    .svg-icon {
+      padding: 10px;
+      width: 100%;
+      height: 100%;
     }
   }
 
