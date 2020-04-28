@@ -1,38 +1,50 @@
 .landing {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../../assets/landing1.jpg');
+  // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  //  url('../../assets/landing1.jpg');
+  background: rgb(10, 10, 10);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
+  .title {
+    font-size: 4.5rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(251, 251, 252);
+    margin-bottom: 1rem;
+  }
+
+  .subtitle-typed {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    color: rgb(251, 251, 252);
+  }
+
   .separator {
-    background-color: white;
+    background-color: rgb(251, 251, 252);
     width: 25%;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  ul{
+    margin-bottom: 1.5rem;
   }
 
   .connect-list {
     display: flex;
     justify-content: space-around;
-    max-width: 21rem;
     li {
       text-align: center;
-      padding: 1.5em;
+      padding: 1em 2.5em;
     }
   }
 
   .cv {
     font-size: 0.9em !important;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
   }
 
   .connect-icon {

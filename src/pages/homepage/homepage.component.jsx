@@ -13,13 +13,12 @@ const HomePage = () => (
       <Container>
         <Row>
           <Col>
-            <h1 className="text-center">Hi, I'm Rodrigo</h1>
-            <h3>
+            <h1 className="text-center title">Rodrigo Toyama</h1>
+            <h3 className="text-center subtitle-typed">
               <Typed
                 strings={[
-                  '^300 Web Developer',
-                  '^300 Maker',
-                  '^400 Java Dev.^1000',
+                  '^300 Front-end Developer^1000',
+                  '^400 Maker^1000',
                 ]}
                 typeSpeed={100}
                 backSpeed={40}

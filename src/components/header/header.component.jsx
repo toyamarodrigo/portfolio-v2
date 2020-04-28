@@ -12,19 +12,25 @@ const Header = () => (
       data-target="#navbarResponsive"
       className="justify-content-center"
     >
-      <Navbar bg="dark" className="fixed-top">
+      <Navbar bg="transparent" className="fixed-top" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">React</Navbar.Brand>
+          <Navbar.Brand href="/">rt.codes</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <LinkContainer to="/">
-                <Nav.Link href="#Home">Home</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/about">
-                <Nav.Link href="#About">About</Nav.Link>
-              </LinkContainer>
-              <Nav.Link href="#Contact">Contact</Nav.Link>
+              <div className="link-items">
+                <LinkContainer to="/">
+                  <Nav.Link>Home</Nav.Link>
+                </LinkContainer>
+              </div>
+              <div className="link-items">
+                <LinkContainer to="/about">
+                  <Nav.Link>About</Nav.Link>
+                </LinkContainer>
+              </div>
+              <div className="link-items">
+                <Nav.Link href="#Contact">Contact</Nav.Link>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>

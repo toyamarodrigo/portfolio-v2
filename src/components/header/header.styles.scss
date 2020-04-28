@@ -1,0 +1,26 @@
+.header {
+  .navbar {
+    a {
+      color: rgb(251, 251, 252) !important;
+      padding: 1.5rem !important;
+      position: relative;
+    }
+
+    .nav-link {
+      &::after {
+        content: '';
+        position: absolute;
+        width: 0px;
+        height: 1px;
+        left: 50%;
+        bottom: 0;
+        background-color: rgb(251, 251, 252);
+        transition: all ease-in-out 0.2s;
+      }
+      &:hover::after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+}
