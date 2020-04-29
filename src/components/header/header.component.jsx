@@ -1,6 +1,5 @@
 import React from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
-import { Nav } from 'react-bootstrap';
+import { withRouter, NavLink } from 'react-router-dom';
 import {
   MDBNavbar,
   MDBNavbarBrand,
@@ -11,13 +10,13 @@ import {
   MDBNavItem,
 } from 'mdbreact';
 
-// import { ReactComponent as Logo } from '../../assets/logo.svg';
 import './header.styles.scss';
 
 class Header extends React.Component {
   state = {
     collapse1: false,
     collapseID: 'navbarCollapse3',
+    activeItem: '1',
   };
 
   toggleCollapse = (collapseID) => () => {
@@ -34,54 +33,72 @@ class Header extends React.Component {
   };
 
   render() {
+    //const { activeItem } = this.state;
     return (
-      <div className="header">
-        <div
-          data-spy="scroll"
-          data-target="#navbarResponsive"
-          className="justify-content-center"
-        >
-          <MDBNavbar className="fixed-top" expand="md">
-            <MDBContainer>
-              <MDBNavbarBrand href="/">rt.codes</MDBNavbarBrand>
-              <MDBHamburgerToggler
-                className="d-block d-md-none"
-                color="rgb(251,251,252)"
-                id="hamburger1"
-                onClick={() => this.toggleSingleCollapse('collapse1')}
-              />
-              <MDBCollapse
-                isOpen={this.state.collapse1}
-                navbar
-                id="navbarCollapse3"
-              >
-                <MDBNavbarNav right>
-                  <MDBNavItem className="link-items">
-                    <LinkContainer to="/">
-                      <Nav.Link>Home</Nav.Link>
-                    </LinkContainer>
-                  </MDBNavItem>
-                  <MDBNavItem className="link-items">
-                    <LinkContainer to="/about">
-                      <Nav.Link>About</Nav.Link>
-                    </LinkContainer>
-                  </MDBNavItem>
-                  <MDBNavItem className="link-items">
-                    <LinkContainer to="/projects">
-                      <Nav.Link>Projects</Nav.Link>
-                    </LinkContainer>
-                  </MDBNavItem>
-                  <MDBNavItem className="link-items">
-                    <Nav.Link href="#Contact">Contact</Nav.Link>
-                  </MDBNavItem>
-                </MDBNavbarNav>
-              </MDBCollapse>
-            </MDBContainer>
-          </MDBNavbar>
-        </div>
+      <div className="header transition-item">
+        <MDBNavbar className="fixed-top shadow-none" expand="md">
+          <MDBContainer>
+            <MDBNavbarBrand>
+              <NavLink exact to="/">
+                rt.codes
+              </NavLink>
+            </MDBNavbarBrand>
+            <MDBHamburgerToggler
+              className="d-block d-md-none"
+              color="rgb(251,251,252)"
+              id="hamburger1"
+              onClick={() => this.toggleSingleCollapse('collapse1')}
+            />
+            <MDBCollapse
+              isOpen={this.state.collapse1}
+              navbar
+              id="navbarCollapse3"
+            >
+              <MDBNavbarNav right>
+                <MDBNavItem className="link-items">
+                  <NavLink
+                    exact
+                    activeClassName="nav-link--active"
+                    className="nav-link"
+                    to="/"
+                  >
+                    Home
+                  </NavLink>
+                </MDBNavItem>
+                <MDBNavItem className="link-items">
+                  <NavLink
+                    activeClassName="nav-link--active"
+                    className="nav-link"
+                    to="/about"
+                  >
+                    About
+                  </NavLink>
+                </MDBNavItem>
+                <MDBNavItem className="link-items">
+                  <NavLink
+                    activeClassName="nav-link--active"
+                    className="nav-link"
+                    to="/projects"
+                  >
+                    Projects
+                  </NavLink>
+                </MDBNavItem>
+                <MDBNavItem className="link-items">
+                  <NavLink
+                    activeClassName="nav-link--active"
+                    className="nav-link"
+                    to="/contact"
+                  >
+                    Contact
+                  </NavLink>
+                </MDBNavItem>
+              </MDBNavbarNav>
+            </MDBCollapse>
+          </MDBContainer>
+        </MDBNavbar>
       </div>
     );
   }
 }
 
-export default Header;
+export default withRouter(Header);
