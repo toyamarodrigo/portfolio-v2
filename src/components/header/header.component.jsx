@@ -15,14 +15,6 @@ import './header.styles.scss';
 class Header extends React.Component {
   state = {
     collapse1: false,
-    collapseID: 'navbarCollapse3',
-    activeItem: '1',
-  };
-
-  toggleCollapse = (collapseID) => () => {
-    this.setState((prevState) => ({
-      collapseID: prevState.collapseID !== collapseID ? collapseID : '',
-    }));
   };
 
   toggleSingleCollapse = (collapseId) => {
