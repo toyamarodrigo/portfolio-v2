@@ -1,0 +1,15 @@
+.footer-contact-list {
+  display: flex;
+  justify-content: center;
+  li {
+    text-align: center;
+    padding: 1em 2.5em;
+    
+    .github,
+    .linkedin,
+    .ig {
+      color: rgb(251, 251, 252) !important;
+      font-size: 1.3em;
+    }
+  }
+}

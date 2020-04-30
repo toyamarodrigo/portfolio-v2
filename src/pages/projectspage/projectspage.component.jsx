@@ -1,20 +1,17 @@
 import React from 'react';
-
-import { Container, Row, Col } from 'react-bootstrap';
+import ContentContainer from '../../components/content-container/content-container.component';
+import Footer from '../../components/footer/footer.component';
 
 import './projectspage.styles.scss';
 
 const ProjectsPage = ({title}) => (
-  <div className="projectspage transition-item">
-    <div className="landing d-flex align-items-center">
-      <Container>
-        <Row>
-          <Col>
-            <h1 className="text-center title">{title}</h1>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+  <div className="projectspage landing">
+    <ContentContainer>
+      <div className="title-container">
+        <h1 className="text-center title">{title}</h1>
+      </div>
+    </ContentContainer>
+    <Footer />
   </div>
 );
 

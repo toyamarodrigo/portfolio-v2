@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFileAlt, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
-// import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom'
 import Typed from 'react-typed';
 
 import ContactList from '../../components/contact-list/contact-list.component';
@@ -33,9 +31,9 @@ const HomePage = ({ title, subtitle }) => (
         <Container>
           <Row className="justify-content-center">
             <Col lg={4} className="text-center">
-              <a className="custom-btn" href="#Projects">
-                View My Projects
-              </a>
+              <Link className="custom-btn" to="/projects">
+                  View My Projects
+              </Link>
             </Col>
           </Row>
         </Container>

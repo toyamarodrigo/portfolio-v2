@@ -2,10 +2,10 @@ import React from 'react';
 import ContentContainer from '../../components/content-container/content-container.component';
 import Footer from '../../components/footer/footer.component';
 
-import './aboutpage.styles.scss';
+import './contactpage.styles.scss';
 
-const AboutPage = ({ title }) => (
-  <div className="aboutpage landing">
+const ContactPage = ({title}) => (
+  <div className="contactpage landing">
     <ContentContainer>
       <div className="title-container">
         <h1 className="text-center title">{title}</h1>
@@ -15,4 +15,4 @@ const AboutPage = ({ title }) => (
   </div>
 );
 
-export default AboutPage;
+export default ContactPage;

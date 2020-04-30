@@ -8,6 +8,10 @@ body {
   font-family: 'Fira Sans', sans-serif !important;
 }
 
+.title-container {
+  padding-top: 9em;
+}
+
 a {
   text-decoration: none !important;
 }

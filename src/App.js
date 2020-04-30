@@ -1,11 +1,12 @@
 import React from 'react';
-import { Switch, BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 import Header from './components/header/header.component';
 import HomePage from './pages/homepage/homepage.component';
 import AboutPage from './pages/aboutpage/aboutpage.component';
 import ProjectsPage from './pages/projectspage/projectspage.component';
+import ContactPage from './pages/contactpage/contactpage.component';
 
 import './App.css';
 
@@ -37,6 +38,7 @@ class App extends React.Component {
   }
 
   render() {
+    const { home, about, projects, contact } = this.state;
     return (
       <Router>
         <Container className="p-0" fluid={true}>
@@ -46,26 +48,20 @@ class App extends React.Component {
               exact
               path="/"
               render={() => (
-                <HomePage
-                  title={this.state.home.title}
-                  subtitle={this.state.home.subtitle}
-                />
+                <HomePage title={home.title} subtitle={home.subtitle} />
               )}
             />
             <Route
-              exact
               path="/about"
-              render={() => <AboutPage title={this.state.about.title} />}
+              render={() => <AboutPage title={about.title} />}
             />
             <Route
-              exact
               path="/projects"
-              render={() => <ProjectsPage title={this.state.projects.title} />}
+              render={() => <ProjectsPage title={projects.title} />}
             />
             <Route
-              exact
               path="/contact"
-              render={() => <ProjectsPage title={this.state.contact.title} />}
+              render={() => <ContactPage title={contact.title} />}
             />
           </Switch>
         </Container>

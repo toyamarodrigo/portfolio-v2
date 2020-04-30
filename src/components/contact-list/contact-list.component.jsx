@@ -1,5 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ContactItem from '../contact-item/contact-item.component';
+
 import { faFileAlt, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
@@ -16,6 +17,7 @@ class ContactList extends React.Component {
           url: 'https://github.com/toyamarodrigo',
           fontIcon: faFileAlt,
           aria: 'CV',
+          animation: 'connect-icon',
         },
         {
           id: 1,
@@ -23,6 +25,7 @@ class ContactList extends React.Component {
           url: 'https://www.linkedin.com/in/rodrigo-toyama-1861b1154/',
           fontIcon: faLinkedinIn,
           aria: 'LinkedIn',
+          animation: 'connect-icon',
         },
         {
           id: 2,
@@ -30,6 +33,7 @@ class ContactList extends React.Component {
           url: 'https://github.com/toyamarodrigo',
           fontIcon: faGithub,
           aria: 'Github',
+          animation: 'connect-icon',
         },
         {
           id: 3,
@@ -37,25 +41,17 @@ class ContactList extends React.Component {
           url: 'mailto:toyama.rodrigo@gmail.com',
           fontIcon: faEnvelopeSquare,
           aria: 'Mail',
+          animation: 'connect-icon',
         },
       ],
     };
   }
   render() {
+    const { contactList } = this.state;
     return (
       <ul className="connect-list">
-        {this.state.contactList.map(({ id, name, url, fontIcon, aria }) => (
-          <li key={id}>
-            <a
-              className={`${name} connect-icon`}
-              href={url}
-              aria-label={aria}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={fontIcon} className="svg-icon" />
-            </a>
-          </li>
+        {contactList.map(({ id, ...otherProps }) => (
+          <ContactItem key={id} {...otherProps} />
         ))}
       </ul>
     );
@@ -63,15 +59,3 @@ class ContactList extends React.Component {
 }
 
 export default ContactList;
-
-// <ul>
-//     <li>
-//     <a
-//       className={`${this.state.contactList.name} connect-icon`}
-//       href={url}
-//       aria-label="CV"
-//     >
-//       <FontAwesomeIcon icon={fontIcon} className="svg-icon" />
-//     </a>
-//   </li>
-// </ul>
