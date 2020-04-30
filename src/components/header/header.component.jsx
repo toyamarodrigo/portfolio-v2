@@ -25,7 +25,6 @@ class Header extends React.Component {
   };
 
   render() {
-    //const { activeItem } = this.state;
     return (
       <div className="header transition-item">
         <MDBNavbar className="fixed-top shadow-none" expand="md">

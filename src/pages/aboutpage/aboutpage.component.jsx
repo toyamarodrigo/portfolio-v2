@@ -4,13 +4,13 @@ import { Container, Row, Col} from 'react-bootstrap';
 
 import './aboutpage.styles.scss';
 
-const AboutPage = () => (
+const AboutPage = ({title}) => (
   <div className="aboutpage transition-item">
     <div className="landing d-flex align-items-center">
       <Container>
         <Row>
           <Col>
-            <h1 className="text-center title">About page</h1>
+            <h1 className="text-center title">{title}</h1>
           </Col>
         </Row>
       </Container>
