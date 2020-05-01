@@ -1,0 +1,34 @@
+.project-img {
+  width: 100%;
+  height: 26rem;
+  object-fit: cover;
+}
+
+.card-text:last-child {
+  margin-bottom: 1rem !important;
+}
+
+.used-tech-body {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.used-tech {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.used-tech p {
+  margin: 0.5rem auto;
+  font-size: 14px;
+  background: #1e8ee9;
+  color: #fff;
+  display: inline-block;
+  padding: 0.1rem 1rem;
+  border-radius: 5px;
+}
+
+.used-tech li {
+  padding-left: 10px;
+  padding-right: 10px;
+}

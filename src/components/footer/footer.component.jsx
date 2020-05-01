@@ -5,7 +5,7 @@ import FooterContact from '../footer-contact/footer-contact.component';
 import './footer.styles.scss';
 
 const Footer = () => (
-  <div className="footer-copyright text-center py-3 fixed-bottom">
+  <div className="footer-copyright text-center py-3">
     <ContentContainer>
       <FooterContact />
     </ContentContainer>

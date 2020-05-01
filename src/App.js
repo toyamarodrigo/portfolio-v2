@@ -38,7 +38,12 @@ class App extends React.Component {
   }
 
   render() {
-    const { home, about, projects, contact } = this.state;
+    const {
+      home,
+      about,
+      projects,
+      contact,
+    } = this.state;
     return (
       <Router>
         <Container className="p-0" fluid={true}>
@@ -57,7 +62,9 @@ class App extends React.Component {
             />
             <Route
               path="/projects"
-              render={() => <ProjectsPage title={projects.title} />}
+              render={() => (
+                <ProjectsPage title={projects.title} />
+              )}
             />
             <Route
               path="/contact"
