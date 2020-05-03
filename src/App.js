@@ -15,12 +15,6 @@ class App extends React.Component {
     super(props);
     this.state = {
       title: 'Rodrigo Toyama',
-      headerLinks: [
-        { title: 'Home', path: '/' },
-        { title: 'About', path: '/about' },
-        { title: 'Projects', path: '/projects' },
-        { title: 'Contact', path: '/contact' },
-      ],
       home: {
         title: 'Rodrigo Toyama',
         subtitle: ['^300 Front-end Developer^1000', '^400 Maker^1000'],
@@ -38,12 +32,7 @@ class App extends React.Component {
   }
 
   render() {
-    const {
-      home,
-      about,
-      projects,
-      contact,
-    } = this.state;
+    const { home, about, projects, contact } = this.state;
     return (
       <Router>
         <Container className="p-0" fluid={true}>
@@ -62,9 +51,7 @@ class App extends React.Component {
             />
             <Route
               path="/projects"
-              render={() => (
-                <ProjectsPage title={projects.title} />
-              )}
+              render={() => <ProjectsPage title={projects.title} />}
             />
             <Route
               path="/contact"

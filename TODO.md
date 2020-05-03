@@ -30,6 +30,7 @@
 
 ## General
 
+* [ ] Agregar archivo con datos json. "gitconnected"
 * [ ] Aprender SetState para cambiar valores.
 * [ ] Componente para Form, que se utilizara en Contacto, Projectos y About.
 * [ ] Ver como pasar props o states or whatever.
