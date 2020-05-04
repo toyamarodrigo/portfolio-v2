@@ -47,6 +47,23 @@
         "url": "mailto:toyama.rodrigo@gmail.com",
         "animation": "connect-icon"
       }
+    ],
+    "footer": [
+      {
+        "id": 0,
+        "name": "ig",
+        "url": "https://instagram.com/rt.codes"
+      },
+      {
+        "id": 1,
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/rodrigo-toyama-1861b1154/"
+      },
+      {
+        "id": 2,
+        "name": "github",
+        "url": "https://github.com/toyamarodrigo"
+      }
     ]
   },
   "skills": [

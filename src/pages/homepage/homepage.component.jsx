@@ -1,13 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
 
 import ContactList from '../../components/contact-list/contact-list.component';
+import ContactItem from '../../components/contact-item/contact-item.component';
 
 import './homepage.styles.scss';
 
-const HomePage = ({ title, subtitle }) => (
+const HomePage = ({ title, subtitle, profile }) => (
   <div className="homepage transition-item">
     <div className="landing d-flex align-items-center">
       <Container>
@@ -24,15 +25,15 @@ const HomePage = ({ title, subtitle }) => (
           <hr className="separator" />
         </Row>
 
-        <Row className="justify-content-center">
-          <ContactList />
-        </Row>
+        <ContactList>
+          <ContactItem profile={profile} />
+        </ContactList>
 
         <Container className="view-project-btn-container">
           <Row className="justify-content-center">
             <Col lg={4} className="text-center">
               <Link className="custom-btn" to="/projects">
-                  View My Projects
+                View My Projects
               </Link>
             </Col>
           </Row>

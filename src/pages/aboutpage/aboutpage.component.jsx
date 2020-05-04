@@ -4,14 +4,14 @@ import Footer from '../../components/footer/footer.component';
 
 import './aboutpage.styles.scss';
 
-const AboutPage = ({ title }) => (
+const AboutPage = ({ title, profile }) => (
   <div className="aboutpage landing">
     <ContentContainer>
       <div className="title-container">
         <h1 className="text-center title">{title}</h1>
       </div>
     </ContentContainer>
-    <Footer />
+    <Footer profile={profile} />
   </div>
 );
 

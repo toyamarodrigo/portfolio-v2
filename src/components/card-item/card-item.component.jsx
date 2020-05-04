@@ -1,5 +1,7 @@
 import React from 'react';
 import { Card, Button, Col, Row } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import './card-item.styles.scss';
 
@@ -48,8 +50,14 @@ const CardItem = ({ profile }) => (
                 </Col>
               </Row>
               <Row className="justify-content-around">
-                <Button className="col-5 mx-1 custom-btn btn-block">code</Button>
-                <Button className="col-5 mx-1 custom-btn btn-block">view</Button>
+                <Button className="col-5 mx-1 custom-btn btn-block" href={project.githubUrl}>
+                  <FontAwesomeIcon icon={faCode} className="mr-2"/>
+                  code
+                </Button>
+                <Button className="col-5 mx-1 custom-btn btn-block" href={project.website}>
+                <FontAwesomeIcon icon={faSearch} className="mr-2"/>
+                  view
+                </Button>
               </Row>
             </Card.Body>
           </Col>

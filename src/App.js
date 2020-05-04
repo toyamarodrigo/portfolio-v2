@@ -41,12 +41,13 @@ class App extends React.Component {
                 <HomePage
                   title={profile.basics.name}
                   subtitle={profile.basics.subtitle}
+                  profile={profile}
                 />
               )}
             />
             <Route
               path="/about"
-              render={() => <AboutPage title={about.title} />}
+              render={() => <AboutPage title={about.title} profile={profile} />}
             />
             <Route
               path="/projects"
@@ -59,7 +60,9 @@ class App extends React.Component {
             />
             <Route
               path="/contact"
-              render={() => <ContactPage title={contact.title} />}
+              render={() => (
+                <ContactPage title={contact.title} profile={profile} />
+              )}
             />
           </Switch>
         </Container>

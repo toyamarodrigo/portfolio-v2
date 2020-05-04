@@ -4,10 +4,10 @@ import FooterContact from '../footer-contact/footer-contact.component';
 
 import './footer.styles.scss';
 
-const Footer = () => (
+const Footer = ({ profile }) => (
   <div className="footer-copyright text-center py-3">
     <ContentContainer>
-      <FooterContact />
+      <FooterContact profile={profile} />
     </ContentContainer>
     <ContentContainer className="text-white">
       &copy; {new Date().getFullYear()} Copyright:{' '}

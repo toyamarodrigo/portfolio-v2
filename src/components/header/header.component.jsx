@@ -27,7 +27,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header transition-item">
-        <MDBNavbar className="fixed-top shadow-none" expand="md">
+        <MDBNavbar className="fixed-top shadow-none p-0" expand="md">
           <MDBContainer>
             <MDBNavbarBrand>
               <NavLink exact to="/">

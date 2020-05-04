@@ -14,11 +14,11 @@ const ProjectsPage = ({ profile, title }) => (
       <div className="title-container">
         <h1 className="text-center title">{title}</h1>
       </div>
-      </ContentContainer>
+    </ContentContainer>
     <CardList>
       <CardItem profile={profile} />
     </CardList>
-    <Footer />
+    <Footer profile={profile} />
   </div>
 );
 
