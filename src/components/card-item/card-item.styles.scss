@@ -1,0 +1,49 @@
+.card {
+  .card-subtitle {
+    margin-top: 1em !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  .card-text:last-child {
+    margin-bottom: 1rem !important;
+  }
+
+  .used-tech-container {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .used-tech {
+    list-style: none;
+    padding-top: 10px;
+    p {
+      margin: 0.5rem auto;
+      font-size: 14px;
+      background: #1e8ee9;
+      color: #fff;
+      display: inline-block;
+      padding: 0.1rem 1rem;
+      border-radius: 5px;
+    }
+
+    li {
+      padding-right: 10px;
+    }
+  }
+
+  .custom-btn {
+    background-color: #dd006f !important;
+    color: white;
+    border-radius: 4px !important;
+    display: inline-block !important;
+    transition: 0.5s !important;
+    letter-spacing: 1px;
+
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+      transform: translate3d(0, -1px, 0);
+      background-color: #ff80bf !important;
+      color: #350a1f !important;
+    }
+  }
+}

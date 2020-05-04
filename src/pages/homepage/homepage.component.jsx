@@ -28,7 +28,7 @@ const HomePage = ({ title, subtitle }) => (
           <ContactList />
         </Row>
 
-        <Container>
+        <Container className="view-project-btn-container">
           <Row className="justify-content-center">
             <Col lg={4} className="text-center">
               <Link className="custom-btn" to="/projects">

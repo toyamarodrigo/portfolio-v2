@@ -1,0 +1,345 @@
+{
+  "basics": {
+    "name": "Rodrigo Toyama",
+    "subtitle": ["^300 Front-end Developer^1000", "^400 Maker^1000"],
+    "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQGfEA_NUlCATA/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=ANr5sptyJJuhptyqykxTpJueo0cN9xW0fc4354yEf_Y",
+    "summary": "Passionate about Software, Web development and new technologies, proactive with desire to develop myself through real challenges having as tools to achieve them: responsability, commitment and learning. I love to learn new things as well as solving real world problems",
+    "goals": "My goal is to provide high quality work to clients no matter if the project is small or of high complexity. I entered the world of Software development because I realised that I can make an impact on people by just using my imagination and passion when building applications.",
+    "myHistory": "By 2018, I thought it would be a good idea to start documenting/bloging my journey of becoming a developer to inspire others as well as keep my self acountable. So I started my Instagram @rt.codes talking about the progress I was making and what conecpts I was currently learning. I also did a bunch of Personal projects with the knowledge I gathered from courses and Internet. Check them out on the Button below.",
+    "website": "http://www.toyamarodrigo.com",
+    "username": "toyamarodrigo",
+    "email": "toyama.rodrigo@gmail.com",
+    "region": "Buenos Aires, Argentina",
+    "pages": {
+      "about": {
+        "title": "About page"
+      },
+      "projects": {
+        "title": "Projects page"
+      },
+      "contact": {
+        "title": "Contact page"
+      }
+    },
+    "profiles": [
+      {
+        "name": "file",
+        "network": "CV",
+        "animation": "connect-icon",
+        "url": "https://github.com/toyamarodrigo"
+      },
+      {
+        "name": "linkedin",
+        "network": "LinkedIn",
+        "animation": "connect-icon",
+        "url": "https://www.linkedin.com/in/rodrigo-toyama-1861b1154/"
+      },
+      {
+        "name": "github",
+        "network": "GitHub",
+        "username": "toyamarodrigo",
+        "animation": "connect-icon",
+        "url": "https://github.com/toyamarodrigo"
+      },
+      {
+        "name": "mail",
+        "network": "Mail",
+        "url": "mailto:toyama.rodrigo@gmail.com",
+        "animation": "connect-icon"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Javascript",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "Beginner",
+      "keywords": []
+    },
+    {
+      "name": "JQuery",
+      "level": "Beginner",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap 4",
+      "level": "Beginner",
+      "keywords": []
+    },
+    {
+      "name": "Spring Framework",
+      "level": "Beginner",
+      "keywords": []
+    },
+    {
+      "name": "Hibernate",
+      "level": "Beginner",
+      "keywords": []
+    }
+  ],
+  "projects": [
+    {
+      "id": 0,
+      "name": "Invoice Management System",
+      "displayName": "invoice-management-system",
+      "summary": "Making files smaller",
+      "website": "https://bit.ly/rt-invoice",
+      "githubUrl": "https://bit.ly/rt-invoice-code",
+      "subtitle": "Used tech",
+      "classPosition": false,
+      "primaryLanguage": "",
+      "languages": [
+        "HTML",
+        "CSS",
+        "Java",
+        "Javascript",
+        "MySQL",
+        "JQuery",
+        "Thymeleaf"
+      ],
+      "libraries": ["MD-Bootstrap", "Spring Framework", "Hibernate"],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            },
+            "thumbnail": {
+              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-thumbnail",
+              "size": 4326,
+              "width": 224,
+              "height": 155
+            },
+            "mobile": {
+              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-mobile",
+              "size": 7821,
+              "width": 400,
+              "height": 277
+            },
+            "desktop": {
+              "url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg",
+              "size": 7836,
+              "width": 400,
+              "height": 277
+            }
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.instagram.com/p/B_J0aPyA4qY",
+          "source": "instagram",
+          "sourceId": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Web Portfolio",
+      "displayName": "my-web-portfolio",
+      "summary": "Made a web portfolio, trying to implement React on it for learning.",
+      "website": "https://bit.ly/rt-portfolio",
+      "githubUrl": "https://bit.ly/rt-portfolio-code",
+      "subtitle": "Used tech",
+      "classPosition": "flex-row-reverse",
+      "primaryLanguage": "",
+      "languages": ["HTML", "SCSS", "Javascript", "JQuery"],
+      "libraries": ["React-Bootstrap", "React", "NodeJS", "React-Router"],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            },
+            "thumbnail": {
+              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-thumbnail",
+              "size": 4326,
+              "width": 224,
+              "height": 155
+            },
+            "mobile": {
+              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-mobile",
+              "size": 7821,
+              "width": 400,
+              "height": 277
+            },
+            "desktop": {
+              "url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg",
+              "size": 7836,
+              "width": 400,
+              "height": 277
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Project SAP Landing Web",
+      "displayName": "sap-landing-web",
+      "summary": "College project Landing web for a made-up SAP company",
+      "website": "https://bit.ly/rt-sap-landing",
+      "githubUrl": "https://bit.ly/rt-sap-landing-code",
+      "subtitle": "Used tech",
+      "classPosition": false,
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Javascript"],
+      "libraries": ["Bootstrap", "Wow.js"],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            },
+            "thumbnail": {
+              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-thumbnail",
+              "size": 4326,
+              "width": 224,
+              "height": 155
+            },
+            "mobile": {
+              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-mobile",
+              "size": 7821,
+              "width": 400,
+              "height": 277
+            },
+            "desktop": {
+              "url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg",
+              "size": 7836,
+              "width": 400,
+              "height": 277
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Project SAP Home Web",
+      "displayName": "sap-home-web",
+      "summary": "College project Homesite web for a made-up SAP company",
+      "website": "https://bit.ly/rt-sap-homesite",
+      "githubUrl": "https://bit.ly/rt-sap-homesite-code",
+      "subtitle": "Used tech",
+      "classPosition": "flex-row-reverse",
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Javascript"],
+      "libraries": ["Bootstrap", "Wow.js"],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "https://images.pexels.com/photos/374720/pexels-photo-374720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            },
+            "thumbnail": {
+              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-thumbnail",
+              "size": 4326,
+              "width": 224,
+              "height": 155
+            },
+            "mobile": {
+              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-mobile",
+              "size": 7821,
+              "width": 400,
+              "height": 277
+            },
+            "desktop": {
+              "url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg",
+              "size": 7836,
+              "width": 400,
+              "height": 277
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto José Hernandez",
+      "area": "Comunicación Arte y Diseño",
+      "studyType": "Bachelor's of Arts",
+      "startDate": "2008",
+      "endDate": "2011",
+      "start": {
+        "year": 2008,
+        "month": null
+      },
+      "end": {
+        "year": 2011,
+        "month": null
+      },
+      "gpa": "4.0/4.0"
+    },
+    {
+      "institution": "Universidad de San Martín",
+      "area": "Information Programming Technology",
+      "studyType": "",
+      "startDate": "2015",
+      "endDate": "",
+      "start": {
+        "year": 2015,
+        "month": null
+      },
+      "end": {
+        "year": null,
+        "month": null
+      },
+      "description": "",
+      "gpa": "4.0/4.0"
+    },
+    {
+      "institution": "Escuela de Arte Multimedial Davinci",
+      "area": "Systems analyst",
+      "studyType": "",
+      "startDate": "2019",
+      "endDate": "",
+      "start": {
+        "year": 2019,
+        "month": null
+      },
+      "end": {
+        "year": null,
+        "month": null
+      },
+      "description": "",
+      "gpa": "4.0/4.0"
+    }
+  ],
+  "languages": ["Spanish", "English", "Japanese"]
+}
