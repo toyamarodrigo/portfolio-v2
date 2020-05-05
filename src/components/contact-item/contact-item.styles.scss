@@ -84,6 +84,35 @@
   color: white;
 }
 
-.linkedin, .mail{
+.linkedin,
+.mail {
   color: #007bb5 !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .connect-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 20%;
+    font-size: 1rem;
+    outline: 0 solid;
+    text-decoration: none !important;
+    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-out;
+
+    svg:hover {
+      color: white;
+    }
+
+    .svg-icon {
+      padding: 5px;
+      width: 100%;
+      height: 100%;
+    }
+  }
 }

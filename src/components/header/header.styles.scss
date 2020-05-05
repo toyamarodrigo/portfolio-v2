@@ -29,17 +29,39 @@
       }
     }
   }
+}
 
-  @media (max-width: 768px) {
-    .navbar-collapse {
-      background-color: rgb(10, 10, 10);
-      text-align: center;
-      font-size: 1.5rem;
-      opacity: 0.98;
-      height: 100vh;
-      .nav-link {
-        padding-bottom: 100%;
+@media (min-width: 576px) {
+  .header {
+    .navbar {
+      padding-top: 0 !important;
+      #nav-icon1 {
+        margin-right: 1rem;
       }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .header {
+    .navbar {
+      padding-top: 1rem !important;
+      #nav-icon1 {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-collapse {
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 1.5rem;
+    opacity: 0.98;
+    height: 100vh;
+    .nav-link {
+      padding-bottom: 100%;
     }
   }
 }

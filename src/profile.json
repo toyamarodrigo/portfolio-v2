@@ -129,11 +129,9 @@
         "CSS",
         "Java",
         "Javascript",
-        "MySQL",
-        "JQuery",
-        "Thymeleaf"
+        "MySQL"
       ],
-      "libraries": ["MD-Bootstrap", "Spring Framework", "Hibernate"],
+      "libraries": ["JQuery","MD-Bootstrap", "Spring Framework", "Hibernate", "Thymeleaf"],
       "images": [
         {
           "resolutions": {
@@ -183,8 +181,8 @@
       "subtitle": "Used tech",
       "classPosition": "flex-row-reverse",
       "primaryLanguage": "",
-      "languages": ["HTML", "SCSS", "Javascript", "JQuery"],
-      "libraries": ["React-Bootstrap", "React", "NodeJS", "React-Router"],
+      "languages": ["HTML", "SCSS", "Javascript"],
+      "libraries": ["React-Bootstrap", "React", "NodeJS", "React-Router", "JQuery"],
       "images": [
         {
           "resolutions": {

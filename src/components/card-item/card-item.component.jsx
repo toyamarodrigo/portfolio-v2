@@ -43,7 +43,12 @@ const CardItem = ({ profile }) => (
                   <ul className="d-inline-flex used-tech flex-wrap">
                     {[...project.languages].map((index, j) => (
                       <li key={j}>
-                        <p>{index}</p>
+                        <p className="p-languages">{index}</p>
+                      </li>
+                    ))}
+                    {[...project.libraries].map((index, k) => (
+                      <li key={k}>
+                        <p  className="p-libraries">{index}</p>
                       </li>
                     ))}
                   </ul>

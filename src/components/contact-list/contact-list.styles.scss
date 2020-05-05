@@ -11,3 +11,28 @@
     padding: 1em 2.5em;
   }
 }
+
+@media (max-width: 575.98px) {
+  .connect-list {
+    li {
+      text-align: center;
+      padding: 1em 0.8em;
+    }
+  }
+}
+
+/* Landscape */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .connect-list {
+      margin-bottom: .5em;
+      li {
+        text-align: center;
+        padding: 1em 0.5em;
+      }
+    }
+  }

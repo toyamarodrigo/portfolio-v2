@@ -12,8 +12,8 @@ const HomePage = ({ title, subtitle, profile }) => (
   <div className="homepage transition-item">
     <div className="landing d-flex align-items-center">
       <Container>
-        <Row>
-          <Col>
+        <Row className="justify-content-center">
+          <Col xs={12}>
             <h1 className="text-center title">{title}</h1>
             <h3 className="text-center subtitle-typed">
               <Typed strings={subtitle} typeSpeed={100} backSpeed={40} loop />

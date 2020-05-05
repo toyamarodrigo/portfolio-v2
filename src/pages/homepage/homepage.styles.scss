@@ -54,3 +54,21 @@
     }
   }
 }
+
+@media (max-width: 575.98px) {
+  .landing {
+    .title {
+      text-align: center;
+      font-size: 3.5rem;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      color: rgb(251, 251, 252);
+      margin-bottom: 1rem;
+    }
+    .subtitle-typed {
+      font-size: 1rem;
+      letter-spacing: 5px;
+      color: rgb(251, 251, 252);
+    }
+  }
+}

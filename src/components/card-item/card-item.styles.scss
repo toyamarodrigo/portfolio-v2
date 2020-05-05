@@ -16,10 +16,19 @@
   .used-tech {
     list-style: none;
     padding-top: 10px;
-    p {
+    .p-languages {
       margin: 0.5rem auto;
       font-size: 14px;
-      background: #1e8ee9;
+      background: #536cdf;
+      color: #fff;
+      display: inline-block;
+      padding: 0.1rem 1rem;
+      border-radius: 5px;
+    }
+    .p-libraries {
+      margin: 0.5rem auto;
+      font-size: 14px;
+      background: #bb2d40;
       color: #fff;
       display: inline-block;
       padding: 0.1rem 1rem;
@@ -32,7 +41,7 @@
   }
 
   .custom-btn {
-    background-color: #dd006f !important;
+    background-color: rgb(15, 15, 15) !important;
     color: white;
     border-radius: 4px !important;
     display: inline-block !important;
@@ -42,8 +51,8 @@
     &:hover {
       box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
       transform: translate3d(0, -1px, 0);
-      background-color: #ff80bf !important;
-      color: #350a1f !important;
+      background-color: rgb(251, 252, 251) !important;
+      color: rgb(10, 10, 10) !important;
     }
   }
 }

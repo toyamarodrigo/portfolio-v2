@@ -1,11 +1,17 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 import './contact-list.styles.scss';
 
 class ContactList extends React.Component {
   render() {
-    return <Row className="justify-content-center">{this.props.children}</Row>;
+    return (
+      <Row className="justify-content-center">
+        <Col xs={10} lg={5}>
+          {this.props.children}
+        </Col>
+      </Row>
+    );
   }
 }
 
