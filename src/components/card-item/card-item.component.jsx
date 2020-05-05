@@ -9,7 +9,7 @@ const CardItem = ({ profile }) => (
   <div>
     {profile.projects.map((project, id) => (
       <Card key={id} className="my-5">
-        <Row className={project.classPosition}>
+        <Row className={`${project.classPosition} justify-content-center align-items-center`}>
           <Col sm={12} lg={7}>
             {[...project.images].map(
               ({
@@ -29,7 +29,7 @@ const CardItem = ({ profile }) => (
               )
             )}
           </Col>
-          <Col md={12} lg={5} className="d-flex align-items-center">
+          <Col md={12} lg={5}>
             <Card.Body>
               <Row>
                 <Col>

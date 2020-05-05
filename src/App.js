@@ -16,7 +16,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       about: {
-        title: 'About page',
+        title: 'About me',
       },
       projects: {
         title: 'Projects page',

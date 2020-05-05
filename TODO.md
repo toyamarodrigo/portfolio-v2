@@ -16,8 +16,9 @@
   * [ ] Responsive Landscape  
 
 * [ ] About Page
-  * [ ] Agregar info Perfil + Foto
-  * [ ] Goals? Historia? + Fotos (checkear v1)
+  * [x] Agregar info Perfil + Foto
+  * [?] Goals? Historia? + Fotos (checkear v1)
+  * [ ] Agregar distinto color de fondo?
   * [ ] Boton redirects Projects Page
   * [ ] Contact Form antes Footer
   * [ ] Responsive Portrait
@@ -47,3 +48,5 @@
 * [ ] Aprender SetState para cambiar valores.
 * [ ] Componente para Form, que se utilizara en Contacto, Projectos y About.
 * [x] Ver como pasar props o states or whatever.
+
+* [ ] Agregar lina de separacion a titulos
