@@ -49,4 +49,4 @@
 * [ ] Componente para Form, que se utilizara en Contacto, Projectos y About.
 * [x] Ver como pasar props o states or whatever.
 
-* [ ] Agregar lina de separacion a titulos
+* [ ] Agregar lina de separacion a titulos.
