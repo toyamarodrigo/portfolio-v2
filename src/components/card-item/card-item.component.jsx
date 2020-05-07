@@ -8,8 +8,10 @@ import './card-item.styles.scss';
 const CardItem = ({ profile }) => (
   <div>
     {profile.projects.map((project, id) => (
-      <Card key={id} className="my-5">
-        <Row className={`${project.classPosition} justify-content-center align-items-center`}>
+      <Card key={id} className="my-5 shadow">
+        <Row
+          className={`${project.classPosition} justify-content-center align-items-center`}
+        >
           <Col sm={12} lg={7}>
             {[...project.images].map(
               ({
@@ -48,19 +50,25 @@ const CardItem = ({ profile }) => (
                     ))}
                     {[...project.libraries].map((index, k) => (
                       <li key={k}>
-                        <p  className="p-libraries">{index}</p>
+                        <p className="p-libraries">{index}</p>
                       </li>
                     ))}
                   </ul>
                 </Col>
               </Row>
               <Row className="justify-content-around">
-                <Button className="col-5 mx-1 custom-btn btn-block" href={project.githubUrl}>
-                  <FontAwesomeIcon icon={faCode} className="mr-2"/>
+                <Button
+                  className="col-5 mx-1 custom-btn btn-block"
+                  href={project.githubUrl}
+                >
+                  <FontAwesomeIcon icon={faCode} className="mr-2" />
                   code
                 </Button>
-                <Button className="col-5 mx-1 custom-btn btn-block" href={project.website}>
-                <FontAwesomeIcon icon={faSearch} className="mr-2"/>
+                <Button
+                  className="col-5 mx-1 custom-btn btn-block"
+                  href={project.website}
+                >
+                  <FontAwesomeIcon icon={faSearch} className="mr-2" />
                   view
                 </Button>
               </Row>

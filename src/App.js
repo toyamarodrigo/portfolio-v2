@@ -15,6 +15,9 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      name: '',
+      email: '',
+      message: '',
       about: {
         title: 'About me',
       },
@@ -25,10 +28,24 @@ class App extends React.Component {
         title: 'Contact page',
       },
     };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(e) {
+    let change = {};
+    change[e.target.name] = e.target.value;
+    this.setState(change);
+  }
+
+  handleSubmit(event) {
+    alert('A name was submitted: ' + this.state.value);
+    event.preventDefault();
   }
 
   render() {
-    const { about, contact } = this.state;
+    const { name, mail, message, about, contact } = this.state;
     return (
       <Router>
         <Container className="p-0" fluid={true}>
@@ -61,7 +78,15 @@ class App extends React.Component {
             <Route
               path="/contact"
               render={() => (
-                <ContactPage title={contact.title} profile={profile} />
+                <ContactPage
+                  title={contact.title}
+                  profile={profile}
+                  name={name}
+                  mail={mail}
+                  message={message}
+                  onChange={this.handleChange}
+                  onSubmit={this.handleSubmit}
+                />
               )}
             />
           </Switch>

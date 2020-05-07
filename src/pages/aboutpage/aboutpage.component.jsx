@@ -1,5 +1,6 @@
 import React from 'react';
 import ContentContainer from '../../components/content-container/content-container.component';
+import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/footer.component';
 
 import './aboutpage.styles.scss';
@@ -15,14 +16,14 @@ const AboutPage = ({ title, profile }) => (
 
     <Container>
       <Row className="justify-content-center align-items-center pt-5">
-        <Col lg={4} className="text-center">
+        <Col lg={3} className="text-center">
           <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fst2.depositphotos.com%2F1007566%2F11541%2Fv%2F950%2Fdepositphotos_115416446-stock-illustration-avatar-business-man-vector-graphic.jpg&f=1&nofb=1"
+            src={require('../../assets/avatar.jpeg')}
             alt=""
             className="avatar"
           />
         </Col>
-        <Col lg={8}>
+        <Col lg={7}>
           <Card.Body className="text-white about-me text-center">
             <Card.Text>
               Hi, I'm Rodrigo, an aspiring Full-Stack Developer based in
@@ -44,15 +45,15 @@ const AboutPage = ({ title, profile }) => (
     </ContentContainer>
 
     <Container className="py-5">
-      <Row>
+      <Row className="justify-content-center align-items-center">
         <Col lg={6} className="text-center">
           <img
-            src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg"
+            src={require('../../assets/project-image1.jpg')}
             alt=""
             className="goal-img"
           />
         </Col>
-        <Col md={12} lg={6}>
+        <Col md={12} lg={5}>
           <Card.Body className="text-white about-me">
             <Card.Text>
               My goal is to provide high quality work to clients no matter if
@@ -69,15 +70,15 @@ const AboutPage = ({ title, profile }) => (
     </Container>
 
     <Container>
-      <Row>
-        <Col lg={6} className="text-center">
+      <Row className="flex-row-reverse justify-content-center align-items-center">
+        <Col lg={5} className="text-center">
           <img
-            src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg"
+            src={require('../../assets/project-image1.jpg')}
             alt=""
             className="goal-img"
           />
         </Col>
-        <Col md={12} lg={5}>
+        <Col md={12} lg={6}>
           <Card.Body className="text-white about-me">
             <Card.Text>
               By 2018, I thought it would be a good idea to start
@@ -95,6 +96,62 @@ const AboutPage = ({ title, profile }) => (
         </Col>
       </Row>
     </Container>
+
+    <Container className="py-5 view-project-btn-container">
+      <Row className="justify-content-center">
+        <Col lg={4} className="text-center">
+          <Link className="custom-btn" to="/projects">
+            View My Projects
+          </Link>
+        </Col>
+      </Row>
+    </Container>
+
+    <section id="Contact">
+      <div class="container footer-container pt-5">
+        <h2 class="text-center">Contact me</h2>
+        <div class="row justify-content-center">
+          <hr class="separator" />
+        </div>
+        <h5 class="text-center text-dark mt-4">
+          Let's work together to create game-changing experiences.
+        </h5>
+
+        <p class="text-center pt-3 email">toyama.rodrigo@gmail.com</p>
+
+        <div class="row justify-content-center">
+          <form class="col-lg-6 pt-3 text-center">
+            <div class="form-group">
+              <input type="text" class="form-control mb-4" placeholder="Name" />
+              <input
+                type="email"
+                class="form-control mb-4"
+                id="Email"
+                aria-describedby="emailHelp"
+                placeholder="Email"
+              />
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  id="TextArea"
+                  rows="3"
+                  placeholder="Message"
+                ></textarea>
+                <small
+                  id="emailHelp"
+                  class="form-text text-muted text-center mt-3"
+                >
+                  We'll never share your email with anyone else.
+                </small>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-slide button-submit my-4">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <Footer profile={profile} />
   </div>
