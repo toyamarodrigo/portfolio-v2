@@ -5,6 +5,8 @@ import Footer from '../../components/footer/footer.component';
 import { Button, Container, Col, Row } from 'react-bootstrap';
 import './contactpage.styles.scss';
 
+// TODO: https://medium.com/@intentionalkreative/a-simple-and-easy-contact-form-step-by-step-tutorial-react-js-1532bc025980
+
 const ContactPage = ({
   title,
   profile,
@@ -22,45 +24,44 @@ const ContactPage = ({
     </ContentContainer>
 
     <section id="Contact">
-      <div class="row justify-content-center">
-        <hr class="separator" />
+      <div className="row justify-content-center">
+        <hr className="separator" />
       </div>
-      <h5 class="text-center text-white mt-4">
+      <h5 className="text-center text-white mt-4">
         Let's work together to create game-changing experiences.
       </h5>
-
-      <div class="row pt-3 justify-content-center">
+      <div className="row pt-3 justify-content-center">
         <form
-          class="col-lg-6 pt-3 text-center"
+          className="col-lg-6 pt-3 text-center"
           method="post"
           onSubmit={onSubmit}
         >
-          <div class="form-group">
+          <div className="form-group">
             <input
-              type="text"
-              class="form-control mb-4"
+              type="name"
+              className="form-control mb-4"
               placeholder="Name"
-              onChange={name}
+              onChange={onChange}
             />
             <input
               type="email"
-              class="form-control mb-4"
+              className="form-control mb-4"
               id="Email"
               aria-describedby="emailHelp"
               placeholder="Email"
-              onChange={mail}
+              onChange={onChange}
             />
-            <div class="form-group">
+            <div className="form-group">
               <textarea
-                class="form-control"
+                className="form-control"
                 id="TextArea"
                 rows="3"
                 placeholder="Message"
-                onChange={message}
+                onChange={onChange}
               ></textarea>
               <small
                 id="emailHelp"
-                class="form-text text-muted text-center mt-3"
+                className="form-text text-muted text-center mt-3"
               >
                 We'll never share your email with anyone else.
               </small>
