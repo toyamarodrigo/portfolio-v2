@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/footer.component';
 
 import './aboutpage.styles.scss';
-import { Card, Container, Col, Row } from 'react-bootstrap';
+import { Card, Container, Col, Row, Button } from 'react-bootstrap';
+
+// TODO: ver arreglar require(IMAGEN) local y no por fuera
+// TODO: clase SUBTITLE checkear para MyGoal y ContactMe
+// ? Agregar Skills?
 
 const AboutPage = ({ title, profile }) => (
   <div className="aboutpage landing">
@@ -40,7 +44,7 @@ const AboutPage = ({ title, profile }) => (
 
     <ContentContainer>
       <div className="subtitle-container">
-        <h2 className="text-center title">My Goal</h2>
+        <h2 className="text-center subtitle">My Goal</h2>
       </div>
     </ContentContainer>
 
@@ -109,15 +113,15 @@ const AboutPage = ({ title, profile }) => (
 
     <section id="Contact">
       <div class="container footer-container pt-5">
-        <h2 class="text-center">Contact me</h2>
+        <h2 class="text-center title">Contact me</h2>
         <div class="row justify-content-center">
           <hr class="separator" />
         </div>
-        <h5 class="text-center text-dark mt-4">
+        <h5 class="text-center text-white mt-4">
           Let's work together to create game-changing experiences.
         </h5>
 
-        <p class="text-center pt-3 email">toyama.rodrigo@gmail.com</p>
+        <p class="text-center text-white pt-3">toyama.rodrigo@gmail.com</p>
 
         <div class="row justify-content-center">
           <form class="col-lg-6 pt-3 text-center">
@@ -145,9 +149,15 @@ const AboutPage = ({ title, profile }) => (
                 </small>
               </div>
             </div>
-            <button type="submit" class="btn btn-slide button-submit my-4">
-              Submit
-            </button>
+            <Container className="py-4 view-project-btn-container">
+            <Row className="justify-content-center">
+              <Col lg={4} className="text-center">
+                <Button type="submit" className="custom-btn">
+                  Submit
+                </Button>
+              </Col>
+            </Row>
+          </Container>
           </form>
         </div>
       </div>

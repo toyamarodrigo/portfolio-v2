@@ -5,7 +5,8 @@ import Footer from '../../components/footer/footer.component';
 import { Button, Container, Col, Row } from 'react-bootstrap';
 import './contactpage.styles.scss';
 
-// TODO: https://medium.com/@intentionalkreative/a-simple-and-easy-contact-form-step-by-step-tutorial-react-js-1532bc025980
+// TODO: arreglar el form con handleChange y submit. hacer que envie mail. firebase? node? express? php?
+// ? https://medium.com/@intentionalkreative/a-simple-and-easy-contact-form-step-by-step-tutorial-react-js-1532bc025980
 
 const ContactPage = ({
   title,
