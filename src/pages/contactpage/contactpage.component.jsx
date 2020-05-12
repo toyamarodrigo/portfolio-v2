@@ -25,60 +25,62 @@ const ContactPage = ({
     </ContentContainer>
 
     <section id="Contact">
-      <div className="row justify-content-center">
+      <Row className="m-0 justify-content-center">
         <hr className="separator" />
-      </div>
+      </Row>
       <h5 className="text-center text-white mt-4">
         Let's work together to create game-changing experiences.
       </h5>
-      <div className="row pt-3 justify-content-center">
-        <form
-          className="col-lg-6 pt-3 text-center"
-          method="post"
-          onSubmit={onSubmit}
-        >
-          <div className="form-group">
-            <input
-              type="name"
-              className="form-control mb-4"
-              placeholder="Name"
-              onChange={onChange}
-            />
-            <input
-              type="email"
-              className="form-control mb-4"
-              id="Email"
-              aria-describedby="emailHelp"
-              placeholder="Email"
-              onChange={onChange}
-            />
+      <Row className="pt-3 m-0 justify-content-center">
+        <Col xs={10} lg={6}>
+          <form
+            className="pt-3 text-center"
+            method="post"
+            onSubmit={onSubmit}
+          >
             <div className="form-group">
-              <textarea
-                className="form-control"
-                id="TextArea"
-                rows="3"
-                placeholder="Message"
+              <input
+                type="name"
+                className="form-control mb-4"
+                placeholder="Name"
                 onChange={onChange}
-              ></textarea>
-              <small
-                id="emailHelp"
-                className="form-text text-muted text-center mt-3"
-              >
-                We'll never share your email with anyone else.
-              </small>
+              />
+              <input
+                type="email"
+                className="form-control mb-4"
+                id="Email"
+                aria-describedby="emailHelp"
+                placeholder="Email"
+                onChange={onChange}
+              />
+              <div className="form-group">
+                <textarea
+                  className="form-control"
+                  id="TextArea"
+                  rows="3"
+                  placeholder="Message"
+                  onChange={onChange}
+                ></textarea>
+                <small
+                  id="emailHelp"
+                  className="form-text text-muted text-center mt-3"
+                >
+                  We'll never share your email with anyone else.
+                </small>
+              </div>
             </div>
-          </div>
-          <Container className="py-4 view-project-btn-container">
-            <Row className="justify-content-center">
-              <Col lg={4} className="text-center">
-                <Button type="submit" className="custom-btn">
-                  Submit
-                </Button>
-              </Col>
-            </Row>
-          </Container>
-        </form>
-      </div>
+            <Container className="py-4 view-project-btn-container">
+              <Row className="justify-content-center">
+                <Col lg={4} className="text-center">
+                  <Button type="submit" className="custom-btn">
+                    Submit
+                  </Button>
+                </Col>
+              </Row>
+            </Container>
+          </form>
+        </Col>
+      </Row>
     </section>
 
     <Footer profile={profile} />
