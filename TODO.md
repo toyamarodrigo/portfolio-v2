@@ -14,13 +14,13 @@
   * [x] Ver contact-list e item props del json.
   * [x] Responsive Portrait
   * [ ] Responsive Landscape  
+  * [ ] Agregar Skills
 
 * [ ] About Page
   * [x] Agregar info Perfil + Foto
-  * [?] Goals? Historia? + Fotos (checkear v1)
-  * [ ] Agregar distinto color de fondo?
-  * [ ] Boton redirects Projects Page
-  * [ ] Contact Form antes Footer
+  * [ ] Goals? Historia? + Fotos (checkear v1)
+  * [x] Boton redirects Projects Page
+  * [x] Contact Form antes Footer
   * [ ] Responsive Portrait
   * [ ] Responsive Landscape  
 
@@ -49,4 +49,4 @@
 * [ ] Componente para Form, que se utilizara en Contacto, Projectos y About.
 * [x] Ver como pasar props o states or whatever.
 
-* [ ] Agregar lina de separacion a titulos.
+* [x] Agregar lina de separacion a titulos.

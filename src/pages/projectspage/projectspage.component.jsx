@@ -9,6 +9,8 @@ import Footer from '../../components/footer/footer.component';
 
 import './projectspage.styles.scss';
 
+// TODO: Agregar fotos de los proyectos en componente CardItem
+
 const ProjectsPage = ({ profile, title }) => (
   <div className="projectspage landing">
     <ContentContainer className="py-0">

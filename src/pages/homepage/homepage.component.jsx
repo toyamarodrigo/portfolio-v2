@@ -8,7 +8,7 @@ import ContactItem from '../../components/contact-item/contact-item.component';
 
 import './homepage.styles.scss';
 
-// ? Agregar Form Contacto? Skills?
+// ? Agregar Skills?
 
 const HomePage = ({ title, subtitle, profile }) => (
   <div className="homepage transition-item">
