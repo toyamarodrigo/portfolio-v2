@@ -2,6 +2,7 @@
   "name": "toyamarodrigo-v2.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://toyamarodrigo.github.io/toyamarodrigo-v2.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
@@ -11,6 +12,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.5.0",
     "mdbreact": "^4.26.0",
     "node-sass": "^4.14.0",
@@ -30,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
