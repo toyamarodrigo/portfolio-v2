@@ -175,7 +175,7 @@
       "id": 1,
       "name": "Web Portfolio v2",
       "displayName": "my-web-portfolio",
-      "summary": "Updated my web portfolio, trying to implement React on it for learning purposes.",
+      "summary": "Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes.",
       "website": "https://bit.ly/rt-portfolio",
       "githubUrl": "https://bit.ly/rt-portfolio-code",
       "subtitle": "Used tech",
