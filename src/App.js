@@ -9,7 +9,7 @@ import AboutPage from './pages/aboutpage/aboutpage.component';
 import ProjectsPage from './pages/projectspage/projectspage.component';
 import ContactPage from './pages/contactpage/contactpage.component';
 
-import './App.css';
+import './App.scss';
 
 class App extends React.Component {
   constructor(props) {

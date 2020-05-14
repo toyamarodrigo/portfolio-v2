@@ -1,9 +1,14 @@
-.about-title {
-  padding-top: 6em;
-}
-
 .avatar {
   width: 100%;
+  border-radius: 10% !important;
+}
+
+.about-title {
+  font-size: 4.5rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(251, 251, 252);
+  margin-bottom: 1rem;
 }
 
 .about-me {
@@ -12,6 +17,14 @@
 
 .subtitle-container {
   padding-top: 3em;
+}
+
+.about-subtitle {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(251, 251, 252);
+  margin-bottom: 1rem;
 }
 
 .goal-img {

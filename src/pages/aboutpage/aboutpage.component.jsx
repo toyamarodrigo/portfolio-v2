@@ -7,14 +7,15 @@ import './aboutpage.styles.scss';
 import { Card, Container, Col, Row, Button } from 'react-bootstrap';
 
 // TODO: ver arreglar require(IMAGEN) local y no por fuera
-// TODO: clase SUBTITLE checkear para MyGoal y ContactMe
-// ? Agregar Skills?
 
 const AboutPage = ({ title, profile }) => (
   <div className="aboutpage landing">
     <ContentContainer>
       <div className="title-container">
-        <h1 className="text-center title">{title}</h1>
+        <h1 className="text-center about-title">{title}</h1>
+        <Row class="justify-content-center">
+          <hr class="separator" />
+        </Row>
       </div>
     </ContentContainer>
 
@@ -44,7 +45,7 @@ const AboutPage = ({ title, profile }) => (
 
     <ContentContainer>
       <div className="subtitle-container">
-        <h2 className="text-center subtitle">My Goal</h2>
+        <h2 className="text-center about-subtitle">My Goal</h2>
       </div>
     </ContentContainer>
 
@@ -114,9 +115,11 @@ const AboutPage = ({ title, profile }) => (
     <section id="Contact">
       <div class="container footer-container pt-5">
         <h2 class="text-center title">Contact me</h2>
+
         <div class="row justify-content-center">
           <hr class="separator" />
         </div>
+
         <h5 class="text-center text-white mt-4">
           Let's work together to create game-changing experiences.
         </h5>
@@ -150,14 +153,14 @@ const AboutPage = ({ title, profile }) => (
               </div>
             </div>
             <Container className="py-4 view-project-btn-container">
-            <Row className="justify-content-center">
-              <Col lg={4} className="text-center">
-                <Button type="submit" className="custom-btn">
-                  Submit
-                </Button>
-              </Col>
-            </Row>
-          </Container>
+              <Row className="justify-content-center">
+                <Col lg={4} className="text-center">
+                  <Button type="submit" className="custom-btn">
+                    Submit
+                  </Button>
+                </Col>
+              </Row>
+            </Container>
           </form>
         </div>
       </div>

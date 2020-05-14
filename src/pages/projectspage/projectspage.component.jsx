@@ -3,6 +3,7 @@ import ContentContainer from '../../components/content-container/content-contain
 
 import CardItem from '../../components/card-item/card-item.component';
 import CardList from '../../components/card-list/card-list.component';
+import { Row } from 'react-bootstrap';
 
 import Footer from '../../components/footer/footer.component';
 
@@ -14,6 +15,9 @@ const ProjectsPage = ({ profile, title }) => (
       <div className="title-container">
         <h1 className="text-center title">{title}</h1>
       </div>
+      <Row class="justify-content-center">
+        <hr class="separator" />
+      </Row>
     </ContentContainer>
     <CardList>
       <CardItem profile={profile} />
