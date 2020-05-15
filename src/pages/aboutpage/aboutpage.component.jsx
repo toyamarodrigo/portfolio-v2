@@ -7,6 +7,7 @@ import './aboutpage.styles.scss';
 import { Card, Container, Col, Row, Button } from 'react-bootstrap';
 
 // TODO: ver arreglar require(IMAGEN) local y no por fuera
+// TODO: Ver titulo responsive
 
 const AboutPage = ({ title, profile }) => (
   <div className="aboutpage landing">
@@ -21,14 +22,14 @@ const AboutPage = ({ title, profile }) => (
 
     <Container>
       <Row className="justify-content-center align-items-center pt-5">
-        <Col lg={3} className="text-center">
+        <Col md={6} lg={3} className="text-center">
           <img
             src={require('../../assets/avatar.jpeg')}
             alt=""
             className="avatar"
           />
         </Col>
-        <Col lg={7}>
+        <Col xs={12} lg={7}>
           <Card.Body className="text-white about-me text-center">
             <Card.Text>
               Hi, I'm Rodrigo, an aspiring Full-Stack Developer based in
@@ -51,14 +52,14 @@ const AboutPage = ({ title, profile }) => (
 
     <Container className="py-5">
       <Row className="justify-content-center align-items-center">
-        <Col lg={6} className="text-center">
+        <Col xs={10} md={10} lg={6} className="text-center">
           <img
             src={require('../../assets/project-image1.jpg')}
             alt=""
             className="goal-img"
           />
         </Col>
-        <Col md={12} lg={5}>
+        <Col md={10} lg={5}>
           <Card.Body className="text-white about-me">
             <Card.Text>
               My goal is to provide high quality work to clients no matter if
@@ -76,14 +77,14 @@ const AboutPage = ({ title, profile }) => (
 
     <Container>
       <Row className="flex-row-reverse justify-content-center align-items-center">
-        <Col lg={5} className="text-center">
+        <Col  md={10} lg={5} className="text-center">
           <img
             src={require('../../assets/project-image1.jpg')}
             alt=""
             className="goal-img"
           />
         </Col>
-        <Col md={12} lg={6}>
+        <Col md={10} lg={6}>
           <Card.Body className="text-white about-me">
             <Card.Text>
               By 2018, I thought it would be a good idea to start
@@ -127,7 +128,7 @@ const AboutPage = ({ title, profile }) => (
         <p class="text-center text-white pt-3">toyama.rodrigo@gmail.com</p>
 
         <div class="row justify-content-center">
-          <form class="col-lg-6 pt-3 text-center">
+          <form class="col-md-10 col-lg-8 pt-3 text-center">
             <div class="form-group">
               <input type="text" class="form-control mb-4" placeholder="Name" />
               <input

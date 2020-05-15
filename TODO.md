@@ -50,3 +50,4 @@
 * [x] Ver como pasar props o states or whatever.
 
 * [x] Agregar lina de separacion a titulos.
+* [ ] Checkear Responsive de columnas de todas las paginas
