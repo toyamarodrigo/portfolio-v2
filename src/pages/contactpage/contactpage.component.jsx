@@ -30,7 +30,7 @@ const ContactPage = ({
       </Row>
       <Row className="pt-3 m-0 justify-content-center">
         <Col xs={12}>
-          <h5 className="text-center text-white mt-4">
+          <h5 className="text-center text-white my-4">
             Let's work together to create game-changing experiences.
           </h5>
         </Col>
