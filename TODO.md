@@ -51,3 +51,4 @@
 
 * [x] Agregar lina de separacion a titulos.
 * [ ] Checkear Responsive de columnas de todas las paginas
+* [ ] Imagenes en public images
