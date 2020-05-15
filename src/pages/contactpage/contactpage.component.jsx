@@ -28,16 +28,14 @@ const ContactPage = ({
       <Row className="m-0 justify-content-center">
         <hr className="separator" />
       </Row>
-      <h5 className="text-center text-white mt-4">
-        Let's work together to create game-changing experiences.
-      </h5>
       <Row className="pt-3 m-0 justify-content-center">
-        <Col xs={10} lg={6}>
-          <form
-            className="pt-3 text-center"
-            method="post"
-            onSubmit={onSubmit}
-          >
+        <Col xs={12}>
+          <h5 className="text-center text-white my-4">
+            Let's work together to create game-changing experiences.
+          </h5>
+        </Col>
+        <Col xs={12} md={8} lg={4}>
+          <form className="pt-3 text-center" method="post" onSubmit={onSubmit}>
             <div className="form-group">
               <input
                 type="name"
