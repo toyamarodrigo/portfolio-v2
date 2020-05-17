@@ -79,7 +79,7 @@ const AboutPage = ({ title, profile }) => (
       <Row className="flex-row-reverse justify-content-center align-items-center">
         <Col  md={10} lg={5} className="text-center">
           <img
-            src={require('../../assets/project-image1.jpg')}
+            src={require('../../assets/project-image2.jpeg')}
             alt=""
             className="goal-img"
           />
