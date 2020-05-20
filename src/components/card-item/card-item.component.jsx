@@ -10,7 +10,7 @@ const CardItem = ({ profile }) => (
     {profile.projects.map((project, id) => (
       <Card key={id} className="my-5 shadow">
         <Row
-          className={`${project.classPosition} justify-content-center align-items-center`}
+          className={`${project.classPosition} justify-content-center`}
         >
           <Col sm={12} lg={7}>
             {[...project.images].map(

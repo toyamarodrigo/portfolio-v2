@@ -52,3 +52,4 @@
 * [x] Agregar lina de separacion a titulos.
 * [ ] Checkear Responsive de columnas de todas las paginas
 * [ ] Pasar y cambiar urls, Imagenes a public/images
+* [ ] Quitar 100vh por que en mobile no sirve, por el Address Bar. usar Viewports
