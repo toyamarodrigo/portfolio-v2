@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1886a2c43cfbe409e98e2429507cd5f7",
+    "revision": "35d219c8a113707129f49ee0079c895a",
     "url": "/toyamarodrigo-v2.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/toyamarodrigo-v2.github.io/static/css/2.d0a29668.chunk.css"
   },
   {
-    "revision": "1244e6cc3d4c946edfc8",
-    "url": "/toyamarodrigo-v2.github.io/static/css/main.c6db6c4d.chunk.css"
+    "revision": "6edd0eeaab9df7b8db19",
+    "url": "/toyamarodrigo-v2.github.io/static/css/main.68c989af.chunk.css"
   },
   {
     "revision": "ec2740d4d1fc9db41f60",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/toyamarodrigo-v2.github.io/static/js/2.2a02337e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1244e6cc3d4c946edfc8",
+    "revision": "6edd0eeaab9df7b8db19",
     "url": "/toyamarodrigo-v2.github.io/static/js/main.68eb4cd6.chunk.js"
   },
   {
