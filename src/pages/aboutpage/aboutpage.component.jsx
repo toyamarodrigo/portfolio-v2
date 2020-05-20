@@ -52,14 +52,14 @@ const AboutPage = ({ title, profile }) => (
 
     <Container className="py-5">
       <Row className="justify-content-center align-items-center">
-        <Col xs={10} md={10} lg={6} className="text-center">
+        <Col xs={12} lg={6} className="text-center">
           <img
             src={require('../../assets/project-image1.jpg')}
             alt=""
             className="goal-img"
           />
         </Col>
-        <Col md={10} lg={5}>
+        <Col xs={12} lg={5}>
           <Card.Body className="text-white about-me">
             <Card.Text>
               My goal is to provide high quality work to clients no matter if
@@ -77,14 +77,14 @@ const AboutPage = ({ title, profile }) => (
 
     <Container>
       <Row className="flex-row-reverse justify-content-center align-items-center">
-        <Col  md={10} lg={5} className="text-center">
+        <Col xs={12} lg={5} className="text-center">
           <img
             src={require('../../assets/project-image2.jpeg')}
             alt=""
             className="goal-img"
           />
         </Col>
-        <Col md={10} lg={6}>
+        <Col xs={12} lg={6}>
           <Card.Body className="text-white about-me">
             <Card.Text>
               By 2018, I thought it would be a good idea to start
