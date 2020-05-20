@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/toyamarodrigo-v2.github.io/static/css/main.56187344.chunk.css",
-    "main.js": "/toyamarodrigo-v2.github.io/static/js/main.0c18fb0f.chunk.js",
-    "main.js.map": "/toyamarodrigo-v2.github.io/static/js/main.0c18fb0f.chunk.js.map",
+    "main.css": "/toyamarodrigo-v2.github.io/static/css/main.c6db6c4d.chunk.css",
+    "main.js": "/toyamarodrigo-v2.github.io/static/js/main.68eb4cd6.chunk.js",
+    "main.js.map": "/toyamarodrigo-v2.github.io/static/js/main.68eb4cd6.chunk.js.map",
     "runtime-main.js": "/toyamarodrigo-v2.github.io/static/js/runtime-main.f09fc5a6.js",
     "runtime-main.js.map": "/toyamarodrigo-v2.github.io/static/js/runtime-main.f09fc5a6.js.map",
     "static/css/2.d0a29668.chunk.css": "/toyamarodrigo-v2.github.io/static/css/2.d0a29668.chunk.css",
     "static/js/2.2a02337e.chunk.js": "/toyamarodrigo-v2.github.io/static/js/2.2a02337e.chunk.js",
     "static/js/2.2a02337e.chunk.js.map": "/toyamarodrigo-v2.github.io/static/js/2.2a02337e.chunk.js.map",
     "index.html": "/toyamarodrigo-v2.github.io/index.html",
-    "precache-manifest.6711e48db00a7c01a94a909b7c8b7ef3.js": "/toyamarodrigo-v2.github.io/precache-manifest.6711e48db00a7c01a94a909b7c8b7ef3.js",
+    "precache-manifest.f9f01805c316f92ac6b9b2074c0b9b05.js": "/toyamarodrigo-v2.github.io/precache-manifest.f9f01805c316f92ac6b9b2074c0b9b05.js",
     "service-worker.js": "/toyamarodrigo-v2.github.io/service-worker.js",
     "static/css/2.d0a29668.chunk.css.map": "/toyamarodrigo-v2.github.io/static/css/2.d0a29668.chunk.css.map",
-    "static/css/main.56187344.chunk.css.map": "/toyamarodrigo-v2.github.io/static/css/main.56187344.chunk.css.map",
+    "static/css/main.c6db6c4d.chunk.css.map": "/toyamarodrigo-v2.github.io/static/css/main.c6db6c4d.chunk.css.map",
     "static/js/2.2a02337e.chunk.js.LICENSE.txt": "/toyamarodrigo-v2.github.io/static/js/2.2a02337e.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/toyamarodrigo-v2.github.io/static/media/arrow_right.8ef6a08c.svg",
     "static/media/avatar.jpeg": "/toyamarodrigo-v2.github.io/static/media/avatar.487556fe.jpeg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.f09fc5a6.js",
     "static/css/2.d0a29668.chunk.css",
     "static/js/2.2a02337e.chunk.js",
-    "static/css/main.56187344.chunk.css",
-    "static/js/main.0c18fb0f.chunk.js"
+    "static/css/main.c6db6c4d.chunk.css",
+    "static/js/main.68eb4cd6.chunk.js"
   ]
 }
