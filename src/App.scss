@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Fira Sans', sans-serif !important;
+  height: 100%;
 }
 
 .title-container {

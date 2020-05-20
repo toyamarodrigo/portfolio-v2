@@ -34,7 +34,7 @@ const ContactPage = ({
             Let's work together to create game-changing experiences.
           </h5>
         </Col>
-        <Col xs={12} md={8} lg={4}>
+        <Col xs={12} md={8} lg={6}>
           <form className="pt-3 text-center" method="post" onSubmit={onSubmit}>
             <div className="form-group">
               <input
