@@ -53,4 +53,4 @@
 * [ ] Checkear Responsive de columnas de todas las paginas
 * [ ] Pasar y cambiar urls, Imagenes a public/images
 * [x] Quitar 100vh por que en mobile no sirve, por el Address Bar. usar Viewports
-* [ ] Arreglar padding/margin de Navbar en mobile.
+* [x] Arreglar padding/margin de Navbar en mobile.
