@@ -4,7 +4,7 @@
 
 * [x] Header / Navbar
   * [x] enlazar Router
-  * [ ] Cuando click en Pagina sobre Menu Hamburguesa, cerrar el Hamburguesa (Cambia página pero queda abierto el menu).
+  * [x] Cuando click en Pagina sobre Menu Hamburguesa, cerrar el Hamburguesa (Cambia página pero queda abierto el menu).
   * [ ] Responsive Portrait
   * [ ] Responsive Landscape  
 
