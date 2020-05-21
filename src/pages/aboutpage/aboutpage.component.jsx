@@ -14,8 +14,8 @@ const AboutPage = ({ title, profile }) => (
     <ContentContainer>
       <div className="title-container">
         <h1 className="text-center about-title">{title}</h1>
-        <Row class="justify-content-center">
-          <hr class="separator" />
+        <Row className="justify-content-center">
+          <hr className="separator" />
         </Row>
       </div>
     </ContentContainer>
@@ -114,40 +114,40 @@ const AboutPage = ({ title, profile }) => (
     </Container>
 
     <section id="Contact">
-      <div class="container footer-container pt-5">
-        <h2 class="text-center title">Contact me</h2>
+      <div className="container footer-container pt-5">
+        <h2 className="text-center title">Contact me</h2>
 
-        <div class="row justify-content-center">
-          <hr class="separator" />
+        <div className="row justify-content-center">
+          <hr className="separator" />
         </div>
 
-        <h5 class="text-center text-white mt-4">
+        <h5 className="text-center text-white mt-4">
           Let's work together to create game-changing experiences.
         </h5>
 
-        <p class="text-center text-white pt-3">toyama.rodrigo@gmail.com</p>
+        <p className="text-center text-white pt-3">toyama.rodrigo@gmail.com</p>
 
-        <div class="row justify-content-center">
-          <form class="col-md-10 col-lg-8 pt-3 text-center">
-            <div class="form-group">
-              <input type="text" class="form-control mb-4" placeholder="Name" />
+        <div className="row justify-content-center">
+          <form className="col-md-10 col-lg-8 pt-3 text-center">
+            <div className="form-group">
+              <input type="text" className="form-control mb-4" placeholder="Name" />
               <input
                 type="email"
-                class="form-control mb-4"
+                className="form-control mb-4"
                 id="Email"
                 aria-describedby="emailHelp"
                 placeholder="Email"
               />
-              <div class="form-group">
+              <div className="form-group">
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   id="TextArea"
                   rows="3"
                   placeholder="Message"
                 ></textarea>
                 <small
                   id="emailHelp"
-                  class="form-text text-muted text-center mt-3"
+                  className="form-text text-muted text-center mt-3"
                 >
                   We'll never share your email with anyone else.
                 </small>
