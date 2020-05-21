@@ -5,6 +5,7 @@
 * [x] Header / Navbar
   * [x] enlazar Router
   * [x] Cuando click en Pagina sobre Menu Hamburguesa, cerrar el Hamburguesa (Cambia página pero queda abierto el menu).
+  * [ ] Fix Menu Hamburguesa, simbolo de cerrar.
   * [ ] Responsive Portrait
   * [ ] Responsive Landscape  
 
