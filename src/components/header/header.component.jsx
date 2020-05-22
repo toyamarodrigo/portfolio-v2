@@ -8,6 +8,7 @@ import {
   MDBContainer,
   MDBHamburgerToggler,
   MDBNavItem,
+  MDBNavLink,
 } from 'mdbreact';
 
 import './header.styles.scss';
@@ -44,7 +45,7 @@ class Header extends React.Component {
             <MDBHamburgerToggler
               className="d-block d-md-none"
               color="rgb(251,251,252)"
-              id="hamburger1"
+              id="navbarCollapse1"
               onClick={this.onClick}
             />
             <MDBCollapse
@@ -59,27 +60,24 @@ class Header extends React.Component {
                     activeClassName="nav-link--active"
                     className="nav-link"
                     to="/"
-                    onClick={() => this.onClick()}
                   >
                     Home
                   </NavLink>
                 </MDBNavItem>
                 <MDBNavItem className="link-items">
-                  <NavLink
+                  <MDBNavLink
                     activeClassName="nav-link--active"
                     className="nav-link"
                     to="/about"
-                    onClick={() => this.onClick()}
                   >
                     About
-                  </NavLink>
+                  </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem className="link-items">
                   <NavLink
                     activeClassName="nav-link--active"
                     className="nav-link"
                     to="/projects"
-                    onClick={() => this.onClick()}
                   >
                     Projects
                   </NavLink>
@@ -89,7 +87,6 @@ class Header extends React.Component {
                     activeClassName="nav-link--active"
                     className="nav-link"
                     to="/contact"
-                    onClick={() => this.onClick()}
                   >
                     Contact
                   </NavLink>
