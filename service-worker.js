@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/toyamarodrigo-v2.github.io/precache-manifest.573b2574d2b6e6488662bf350857a7b3.js"
+  "/toyamarodrigo-v2.github.io/precache-manifest.3e2883246f4a485dcfe22e80ef973701.js"
 );
 
 self.addEventListener('message', (event) => {
