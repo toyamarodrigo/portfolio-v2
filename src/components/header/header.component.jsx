@@ -6,10 +6,11 @@ import {
   MDBNavbarNav,
   MDBCollapse,
   MDBContainer,
-  MDBHamburgerToggler,
+  MDBNavbarToggler,
   MDBNavItem,
   MDBNavLink,
 } from 'mdbreact';
+import $ from 'jquery';
 
 import './header.styles.scss';
 
@@ -33,26 +34,33 @@ class Header extends React.Component {
   }
 
   render() {
+    // JQuery Close Hamburger when click outside of the element
+    $(document).ready(function () {
+      $(document).click(function (event) {
+        var click = $(event.target);
+        var _open = $('.navbar-collapse').hasClass('show');
+        if (_open === true && !click.hasClass('navbar-toggler')) {
+          $('.navbar-toggler').click();
+        }
+      });
+    });
     return (
-      <div className="header transition-item">
-        <MDBNavbar className="fixed-top shadow-none p-0" expand="md">
+      <div
+        className="header transition-item"
+        ref={(node) => (this.node = node)}
+      >
+        <MDBNavbar dark className="fixed-top shadow-none p-0" expand="md">
           <MDBContainer>
             <MDBNavbarBrand>
               <NavLink exact to="/">
                 rt.codes
               </NavLink>
             </MDBNavbarBrand>
-            <MDBHamburgerToggler
+            <MDBNavbarToggler
               className="d-block d-md-none"
-              color="rgb(251,251,252)"
-              id="navbarCollapse1"
               onClick={this.onClick}
             />
-            <MDBCollapse
-              isOpen={this.state.collapse}
-              navbar
-              id="navbarCollapse3"
-            >
+            <MDBCollapse isOpen={this.state.collapse} navbar>
               <MDBNavbarNav right>
                 <MDBNavItem className="link-items">
                   <NavLink
@@ -60,6 +68,7 @@ class Header extends React.Component {
                     activeClassName="nav-link--active"
                     className="nav-link"
                     to="/"
+                    onClick={() => this.onClick()}
                   >
                     Home
                   </NavLink>
@@ -69,6 +78,7 @@ class Header extends React.Component {
                     activeClassName="nav-link--active"
                     className="nav-link"
                     to="/about"
+                    onClick={() => this.onClick()}
                   >
                     About
                   </MDBNavLink>
@@ -78,6 +88,7 @@ class Header extends React.Component {
                     activeClassName="nav-link--active"
                     className="nav-link"
                     to="/projects"
+                    onClick={() => this.onClick()}
                   >
                     Projects
                   </NavLink>
@@ -87,6 +98,7 @@ class Header extends React.Component {
                     activeClassName="nav-link--active"
                     className="nav-link"
                     to="/contact"
+                    onClick={() => this.onClick()}
                   >
                     Contact
                   </NavLink>

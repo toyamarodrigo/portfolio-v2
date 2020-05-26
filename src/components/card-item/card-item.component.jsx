@@ -9,9 +9,7 @@ const CardItem = ({ profile }) => (
   <div>
     {profile.projects.map((project, id) => (
       <Card key={id} className="my-5 shadow">
-        <Row
-          className={`${project.classPosition} justify-content-center`}
-        >
+        <Row className={`${project.classPosition} justify-content-center`}>
           <Col sm={12} lg={7}>
             {[...project.images].map(
               ({
@@ -60,6 +58,7 @@ const CardItem = ({ profile }) => (
                 <Button
                   className="col-10 mx-1 my-2 custom-btn btn-block"
                   href={project.githubUrl}
+                  target="_blank"
                 >
                   <FontAwesomeIcon icon={faCode} className="mr-2" />
                   code
@@ -67,6 +66,7 @@ const CardItem = ({ profile }) => (
                 <Button
                   className="col-10 mx-1 custom-btn btn-block"
                   href={project.website}
+                  target="_blank"
                 >
                   <FontAwesomeIcon icon={faSearch} className="mr-2" />
                   view

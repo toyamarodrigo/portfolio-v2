@@ -36,7 +36,7 @@
   * [ ] Responsive Landscape  
 
 * [ ] Contact page
-  * [ ] Agregar Form
+  * [x] Agregar Form
   * [ ] Make it work
   * [ ] Responsive Portrait
   * [ ] Responsive Landscape
@@ -56,3 +56,4 @@
 * [ ] Pasar y cambiar urls, Imagenes a public/images
 * [x] Quitar 100vh por que en mobile no sirve, por el Address Bar. usar Viewports
 * [x] Arreglar padding/margin de Navbar en mobile.
+* [x] Close Menu Hamburger cuando haces click afuera.
