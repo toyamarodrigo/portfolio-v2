@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/toyamarodrigo-v2.github.io/static/css/main.10e504b9.chunk.css",
-    "main.js": "/toyamarodrigo-v2.github.io/static/js/main.a8a75ec4.chunk.js",
-    "main.js.map": "/toyamarodrigo-v2.github.io/static/js/main.a8a75ec4.chunk.js.map",
+    "main.js": "/toyamarodrigo-v2.github.io/static/js/main.c15ac0a3.chunk.js",
+    "main.js.map": "/toyamarodrigo-v2.github.io/static/js/main.c15ac0a3.chunk.js.map",
     "runtime-main.js": "/toyamarodrigo-v2.github.io/static/js/runtime-main.f09fc5a6.js",
     "runtime-main.js.map": "/toyamarodrigo-v2.github.io/static/js/runtime-main.f09fc5a6.js.map",
     "static/css/2.d0a29668.chunk.css": "/toyamarodrigo-v2.github.io/static/css/2.d0a29668.chunk.css",
-    "static/js/2.3ec0a116.chunk.js": "/toyamarodrigo-v2.github.io/static/js/2.3ec0a116.chunk.js",
-    "static/js/2.3ec0a116.chunk.js.map": "/toyamarodrigo-v2.github.io/static/js/2.3ec0a116.chunk.js.map",
+    "static/js/2.d8e95969.chunk.js": "/toyamarodrigo-v2.github.io/static/js/2.d8e95969.chunk.js",
+    "static/js/2.d8e95969.chunk.js.map": "/toyamarodrigo-v2.github.io/static/js/2.d8e95969.chunk.js.map",
     "index.html": "/toyamarodrigo-v2.github.io/index.html",
-    "precache-manifest.3e2883246f4a485dcfe22e80ef973701.js": "/toyamarodrigo-v2.github.io/precache-manifest.3e2883246f4a485dcfe22e80ef973701.js",
+    "precache-manifest.fe13917f5265c92ab1da033c6ac3dc69.js": "/toyamarodrigo-v2.github.io/precache-manifest.fe13917f5265c92ab1da033c6ac3dc69.js",
     "service-worker.js": "/toyamarodrigo-v2.github.io/service-worker.js",
     "static/css/2.d0a29668.chunk.css.map": "/toyamarodrigo-v2.github.io/static/css/2.d0a29668.chunk.css.map",
     "static/css/main.10e504b9.chunk.css.map": "/toyamarodrigo-v2.github.io/static/css/main.10e504b9.chunk.css.map",
-    "static/js/2.3ec0a116.chunk.js.LICENSE.txt": "/toyamarodrigo-v2.github.io/static/js/2.3ec0a116.chunk.js.LICENSE.txt",
+    "static/js/2.d8e95969.chunk.js.LICENSE.txt": "/toyamarodrigo-v2.github.io/static/js/2.d8e95969.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/toyamarodrigo-v2.github.io/static/media/arrow_right.8ef6a08c.svg",
     "static/media/avatar.jpeg": "/toyamarodrigo-v2.github.io/static/media/avatar.487556fe.jpeg",
     "static/media/all.min.css": "/toyamarodrigo-v2.github.io/static/media/fa-solid-900.ec763292.svg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.f09fc5a6.js",
     "static/css/2.d0a29668.chunk.css",
-    "static/js/2.3ec0a116.chunk.js",
+    "static/js/2.d8e95969.chunk.js",
     "static/css/main.10e504b9.chunk.css",
-    "static/js/main.a8a75ec4.chunk.js"
+    "static/js/main.c15ac0a3.chunk.js"
   ]
 }
