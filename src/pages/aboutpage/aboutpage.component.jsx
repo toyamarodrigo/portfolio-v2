@@ -24,7 +24,7 @@ const AboutPage = ({ title, profile }) => (
       <Row className="justify-content-center align-items-center pt-5">
         <Col md={6} lg={3} className="text-center">
           <img
-            src={require('../../assets/avatar.jpeg')}
+            src={require('../../assets/avatar-min.jpeg')}
             alt=""
             className="avatar"
           />
@@ -54,7 +54,7 @@ const AboutPage = ({ title, profile }) => (
       <Row className="justify-content-center align-items-center">
         <Col xs={12} lg={6} className="text-center">
           <img
-            src={require('../../assets/project-image1.jpg')}
+            src={require('../../assets/project-image1-min.png')}
             alt=""
             className="goal-img"
           />
@@ -79,7 +79,7 @@ const AboutPage = ({ title, profile }) => (
       <Row className="flex-row-reverse justify-content-center align-items-center">
         <Col xs={12} lg={5} className="text-center">
           <img
-            src={require('../../assets/project-image2.jpeg')}
+            src={require('../../assets/project-image2-min.png')}
             alt=""
             className="goal-img"
           />

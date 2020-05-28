@@ -1,5 +1,13 @@
 .card {
   background-color: rgb(240, 240, 240) !important;
+  
+  .project-img {
+    width: 100%;
+    // object-fit: cover;
+    // height: 100%;
+    padding: 1em 1em;
+  }
+
   .card-subtitle {
     margin-top: 1em !important;
     margin-bottom: 0.5em !important;

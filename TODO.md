@@ -51,10 +51,11 @@
 * [ ] Componente para Form, que se utilizara en Contacto, Projectos y About.
 * [x] Ver como pasar props o states or whatever.
 * [ ] Agregar fotos de proyectos al json. en assets/
+* [ ] Acortar json. muchos no se usan.
 
 * [x] Agregar lina de separacion a titulos.
 * [ ] Checkear Responsive de columnas de todas las paginas
-* [ ] Pasar y cambiar urls, Imagenes a public/images
+* [x] Pasar y cambiar urls, Imagenes a assets/images
 * [x] Quitar 100vh por que en mobile no sirve, por el Address Bar. usar Viewports
 * [x] Arreglar padding/margin de Navbar en mobile.
 * [x] Close Menu Hamburger cuando haces click afuera.

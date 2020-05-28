@@ -137,7 +137,7 @@
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image1.png",
+              "url": "/project-image1-min.png",
               "size": 1228,
               "width": 32,
               "height": 22
@@ -175,7 +175,7 @@
       "id": 1,
       "name": "Web Portfolio v2",
       "displayName": "my-web-portfolio",
-      "summary": "Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes.",
+      "summary": "Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes and to show my projects.",
       "website": "https://bit.ly/rt-portfolio",
       "githubUrl": "https://bit.ly/rt-portfolio-code",
       "subtitle": "Used tech",
@@ -188,7 +188,7 @@
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image1.png",
+              "url": "/project-image2-min.png",
               "size": 1228,
               "width": 32,
               "height": 22
@@ -226,13 +226,13 @@
       "classPosition": false,
       "primaryLanguage": "",
       "languages": ["HTML", "CSS", "Javascript"],
-      "libraries": ["Bootstrap", "Wow.js"],
+      "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
       "images": [
         {
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image1.png",
+              "url": "/project-image3-min.jpg",
               "size": 1228,
               "width": 32,
               "height": 22
@@ -270,13 +270,13 @@
       "classPosition": "flex-row-reverse",
       "primaryLanguage": "",
       "languages": ["HTML", "CSS", "Javascript"],
-      "libraries": ["Bootstrap", "Wow.js"],
+      "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
       "images": [
         {
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image1.png",
+              "url": "/project-image4-min.png",
               "size": 1228,
               "width": 32,
               "height": 22
