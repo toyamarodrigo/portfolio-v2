@@ -29,11 +29,10 @@
 * [ ] Projects Page
   * [x] Agregar Cards para proyectos
   * [x] Props que vengan del json
-  * [ ] Agregar info a las Cards + Fotos
-  * [ ] Boton para mostrar todos los proyectos o esconderlos (Ver state antes)
+  * [x] Agregar info a las Cards + Fotos
   * [ ] Contact Form antes Footer
   * [ ] Responsive Portrait
-  * [ ] Responsive Landscape  
+  * [ ] Responsive Landscape
 
 * [ ] Contact page
   * [x] Agregar Form
