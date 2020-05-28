@@ -23,7 +23,7 @@ const CardItem = ({ profile }) => (
                 <Card.Img
                   key={id}
                   variant="left"
-                  src={url}
+                  src={require('../../assets' + url)}
                   className="project-img"
                 />
               )
