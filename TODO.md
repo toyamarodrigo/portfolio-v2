@@ -50,6 +50,7 @@
 * [ ] Aprender SetState para cambiar valores.
 * [ ] Componente para Form, que se utilizara en Contacto, Projectos y About.
 * [x] Ver como pasar props o states or whatever.
+* [ ] Agregar fotos de proyectos al json. en assets/
 
 * [x] Agregar lina de separacion a titulos.
 * [ ] Checkear Responsive de columnas de todas las paginas
