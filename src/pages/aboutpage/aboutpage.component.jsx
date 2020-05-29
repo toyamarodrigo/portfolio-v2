@@ -90,8 +90,10 @@ const AboutPage = ({ title, profile }) => (
               By 2018, I thought it would be a good idea to start
               documenting/bloging my journey of becoming a developer to inspire
               others as well as keep myself acountable. So I started my
-              Instagram @rt.codes talking about the progress I was making and
-              what concepts I was currently learning.
+              Instagram
+              <a href="https://www.instagram.com/rt.codes/" className="ig-link"> @rt.codes </a>
+              talking about the progress I was making and what concepts I was
+              currently learning.
             </Card.Text>
             <Card.Text>
               I also did a bunch of Personal projects with the knowledge I
@@ -121,16 +123,18 @@ const AboutPage = ({ title, profile }) => (
           <hr className="separator" />
         </div>
 
-        <h5 className="text-center text-white mt-4">
+        <h5 className="text-center text-white my-4">
           Let's work together to create game-changing experiences.
         </h5>
-
-        <p className="text-center text-white pt-3">toyama.rodrigo@gmail.com</p>
 
         <div className="row justify-content-center">
           <form className="col-md-10 col-lg-8 pt-3 text-center">
             <div className="form-group">
-              <input type="text" className="form-control mb-4" placeholder="Name" />
+              <input
+                type="text"
+                className="form-control mb-4"
+                placeholder="Name"
+              />
               <input
                 type="email"
                 className="form-control mb-4"
