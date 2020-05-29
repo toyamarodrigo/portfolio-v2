@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, HashRouter as Router, Route } from 'react-router-dom';
+import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import profile from './profile.json';
 
@@ -68,7 +68,7 @@ class App extends React.Component {
   render() {
     const { name, mail, message, about, contact } = this.state;
     return (
-      <Router basename="/">
+      <Router basename={process.env.PUBLIC_URL}>
         <Container className="p-0" fluid={true}>
           <Header />
           <Switch>
