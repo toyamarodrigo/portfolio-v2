@@ -30,6 +30,7 @@
   * [x] Agregar Cards para proyectos
   * [x] Props que vengan del json
   * [x] Agregar info a las Cards + Fotos
+  * [ ] Update repo de cada proyecto con imagenes
   * [ ] Contact Form antes Footer
   * [ ] Responsive Portrait
   * [ ] Responsive Landscape

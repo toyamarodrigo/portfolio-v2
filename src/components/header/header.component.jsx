@@ -8,10 +8,9 @@ import {
   MDBContainer,
   MDBNavbarToggler,
   MDBNavItem,
-  MDBNavLink,
 } from 'mdbreact';
-import $ from 'jquery';
 
+import $ from 'jquery';
 import './header.styles.scss';
 
 class Header extends React.Component {
@@ -74,14 +73,14 @@ class Header extends React.Component {
                   </NavLink>
                 </MDBNavItem>
                 <MDBNavItem className="link-items">
-                  <MDBNavLink
+                  <NavLink
                     activeClassName="nav-link--active"
                     className="nav-link"
                     to="/about"
                     onClick={() => this.onClick()}
                   >
                     About
-                  </MDBNavLink>
+                  </NavLink>
                 </MDBNavItem>
                 <MDBNavItem className="link-items">
                   <NavLink

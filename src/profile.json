@@ -26,20 +26,20 @@
         "name": "file",
         "network": "CV",
         "animation": "connect-icon",
-        "url": "https://github.com/toyamarodrigo"
+        "url": "https://bit.ly/rt-cv-eng"
       },
       {
         "name": "linkedin",
         "network": "LinkedIn",
         "animation": "connect-icon",
-        "url": "https://www.linkedin.com/in/rodrigo-toyama-1861b1154/"
+        "url": "https://bit.ly/rtoyama-linkedin"
       },
       {
         "name": "github",
         "network": "GitHub",
         "username": "toyamarodrigo",
         "animation": "connect-icon",
-        "url": "https://github.com/toyamarodrigo"
+        "url": "https://bit.ly/rt-github"
       },
       {
         "name": "mail",
