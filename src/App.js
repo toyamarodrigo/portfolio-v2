@@ -68,7 +68,7 @@ class App extends React.Component {
   render() {
     const { name, mail, message, about, contact } = this.state;
     return (
-      <Router>
+      <Router basename="/">
         <Container className="p-0" fluid={true}>
           <Header />
           <Switch>
