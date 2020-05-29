@@ -2,7 +2,7 @@
   "name": "portfolio-v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://toyamarodrigo.github.io/portfolio-v2",
+  "homepage": "https://www.toyamarodrigo.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
