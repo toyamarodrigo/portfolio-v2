@@ -11,350 +11,280 @@
     "email": "toyama.rodrigo@gmail.com",
     "region": "Buenos Aires, Argentina",
     "pages": {
-      "about": {
-        "title": "About me"
+      "titles": {
+        "aboutTitle": "About me",
+        "projectsTitle": "My Projects",
+        "contactTitle": "Contact me"
       },
-      "projects": {
-        "title": "Projects page"
-      },
-      "contact": {
-        "title": "Contact page"
-      }
+      "profiles": [
+        {
+          "name": "file",
+          "network": "CV",
+          "animation": "connect-icon",
+          "url": "https://bit.ly/rt-cv-pdf-en"
+        },
+        {
+          "name": "linkedin",
+          "network": "LinkedIn",
+          "animation": "connect-icon",
+          "url": "https://bit.ly/rtoyama-linkedin"
+        },
+        {
+          "name": "github",
+          "network": "GitHub",
+          "username": "toyamarodrigo",
+          "animation": "connect-icon",
+          "url": "https://bit.ly/rt-github"
+        },
+        {
+          "name": "mail",
+          "network": "Mail",
+          "url": "mailto:toyama.rodrigo@gmail.com",
+          "animation": "connect-icon"
+        }
+      ],
+      "footer": [
+        {
+          "id": 0,
+          "name": "ig",
+          "url": "https://bit.ly/rt-ig"
+        },
+        {
+          "id": 1,
+          "name": "linkedin",
+          "url": "https://bit.ly/rtoyama-linkedin"
+        },
+        {
+          "id": 2,
+          "name": "github",
+          "url": "https://bit.ly/rt-github"
+        }
+      ]
     },
-    "profiles": [
+    "skills": [
       {
-        "name": "file",
-        "network": "CV",
-        "animation": "connect-icon",
-        "url": "https://bit.ly/rt-cv-pdf-en"
+        "name": "HTML",
+        "level": "",
+        "keywords": []
       },
       {
-        "name": "linkedin",
-        "network": "LinkedIn",
-        "animation": "connect-icon",
-        "url": "https://bit.ly/rtoyama-linkedin"
+        "name": "CSS",
+        "level": "",
+        "keywords": []
       },
       {
-        "name": "github",
-        "network": "GitHub",
-        "username": "toyamarodrigo",
-        "animation": "connect-icon",
-        "url": "https://bit.ly/rt-github"
+        "name": "Javascript",
+        "level": "",
+        "keywords": []
       },
       {
-        "name": "mail",
-        "network": "Mail",
-        "url": "mailto:toyama.rodrigo@gmail.com",
-        "animation": "connect-icon"
+        "name": "Java",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "MySQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "JQuery",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Bootstrap 4",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Spring Framework",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Hibernate",
+        "level": "",
+        "keywords": []
       }
     ],
-    "footer": [
+    "projects": [
       {
         "id": 0,
-        "name": "ig",
-        "url": "https://bit.ly/rt-ig"
+        "name": "Invoice Management System",
+        "displayName": "invoice-management-system",
+        "summary": "Main objective of this project was managing Customers and their Invoices. Developed all type of CRUD operations, learning Spring Framework and Java in the process also how Hibernate works and the use of Thymeleaf and JQuery.",
+        "website": "https://bit.ly/rt-invoice",
+        "githubUrl": "https://bit.ly/rt-invoice-code",
+        "subtitle": "Used tech",
+        "classPosition": false,
+        "primaryLanguage": "",
+        "languages": ["HTML", "CSS", "Java", "Javascript", "MySQL"],
+        "libraries": [
+          "JQuery",
+          "MD-Bootstrap",
+          "Spring Framework",
+          "Hibernate",
+          "Thymeleaf"
+        ],
+        "images": [
+          {
+            "resolutions": {
+              "micro": {
+                "id": 0,
+                "url": "/project-image1-min.png",
+                "size": 1228,
+                "width": 32,
+                "height": 22
+              }
+            }
+          }
+        ],
+        "videos": [
+          {
+            "url": "https://www.instagram.com/p/B_J0aPyA4qY",
+            "source": "instagram",
+            "sourceId": ""
+          }
+        ]
       },
       {
         "id": 1,
-        "name": "linkedin",
-        "url": "https://bit.ly/rtoyama-linkedin"
+        "name": "Web Portfolio v2",
+        "displayName": "my-web-portfolio",
+        "summary": "Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes and to show my projects.",
+        "website": "https://bit.ly/rt-portfolio",
+        "githubUrl": "https://bit.ly/rt-portfolio-code",
+        "subtitle": "Used tech",
+        "classPosition": "flex-row-reverse",
+        "primaryLanguage": "",
+        "languages": ["HTML", "SCSS", "Javascript"],
+        "libraries": [
+          "React-Bootstrap",
+          "React",
+          "NodeJS",
+          "React-Router",
+          "JQuery"
+        ],
+        "images": [
+          {
+            "resolutions": {
+              "micro": {
+                "id": 0,
+                "url": "/project-image2-min.png",
+                "size": 1228,
+                "width": 32,
+                "height": 22
+              }
+            }
+          }
+        ]
       },
       {
         "id": 2,
-        "name": "github",
-        "url": "https://bit.ly/rt-github"
+        "name": "Project SAP Landing Web",
+        "displayName": "sap-landing-web",
+        "summary": "College project - Landing web for a made-up SAP company, Rules were to use ONLY html, css, bootstrap and some JS plugins. With this project I improved my Bootstrap skills and learn about JS plugins and how they work. ",
+        "website": "https://bit.ly/rt-sap-landing",
+        "githubUrl": "https://bit.ly/rt-sap-landing-code",
+        "subtitle": "Used tech",
+        "classPosition": false,
+        "primaryLanguage": "",
+        "languages": ["HTML", "CSS", "Javascript"],
+        "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
+        "images": [
+          {
+            "resolutions": {
+              "micro": {
+                "id": 0,
+                "url": "/project-image3-min.jpg",
+                "size": 1228,
+                "width": 32,
+                "height": 22
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Project SAP Home Web",
+        "displayName": "sap-home-web",
+        "summary": "Homepage from Landing. same rules applied from Landing project.",
+        "website": "https://bit.ly/rt-sap-homesite",
+        "githubUrl": "https://bit.ly/rt-sap-homesite-code",
+        "subtitle": "Used tech",
+        "classPosition": "flex-row-reverse",
+        "primaryLanguage": "",
+        "languages": ["HTML", "CSS", "Javascript"],
+        "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
+        "images": [
+          {
+            "resolutions": {
+              "micro": {
+                "id": 0,
+                "url": "/project-image4-min.png",
+                "size": 1228,
+                "width": 32,
+                "height": 22
+              }
+            }
+          }
+        ]
       }
-    ]
-  },
-  "skills": [
-    {
-      "name": "HTML",
-      "level": "Expert",
-      "keywords": []
-    },
-    {
-      "name": "CSS",
-      "level": "Intermediate",
-      "keywords": []
-    },
-    {
-      "name": "Javascript",
-      "level": "Advanced",
-      "keywords": []
-    },
-    {
-      "name": "Java",
-      "level": "Advanced",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "Beginner",
-      "keywords": []
-    },
-    {
-      "name": "JQuery",
-      "level": "Beginner",
-      "keywords": []
-    },
-    {
-      "name": "Bootstrap 4",
-      "level": "Beginner",
-      "keywords": []
-    },
-    {
-      "name": "Spring Framework",
-      "level": "Beginner",
-      "keywords": []
-    },
-    {
-      "name": "Hibernate",
-      "level": "Beginner",
-      "keywords": []
-    }
-  ],
-  "projects": [
-    {
-      "id": 0,
-      "name": "Invoice Management System",
-      "displayName": "invoice-management-system",
-      "summary": "Main objective of this project was managing Customers and their Invoices. Developed all type of CRUD operations, learning Spring Framework and Java in the process also how Hibernate works and the use of Thymeleaf and JQuery.",
-      "website": "https://bit.ly/rt-invoice",
-      "githubUrl": "https://bit.ly/rt-invoice-code",
-      "subtitle": "Used tech",
-      "classPosition": false,
-      "primaryLanguage": "",
-      "languages": [
-        "HTML",
-        "CSS",
-        "Java",
-        "Javascript",
-        "MySQL"
-      ],
-      "libraries": ["JQuery","MD-Bootstrap", "Spring Framework", "Hibernate", "Thymeleaf"],
-      "images": [
-        {
-          "resolutions": {
-            "micro": {
-              "id": 0,
-              "url": "/project-image1-min.png",
-              "size": 1228,
-              "width": 32,
-              "height": 22
-            },
-            "thumbnail": {
-              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-thumbnail",
-              "size": 4326,
-              "width": 224,
-              "height": 155
-            },
-            "mobile": {
-              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-mobile",
-              "size": 7821,
-              "width": 400,
-              "height": 277
-            },
-            "desktop": {
-              "url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg",
-              "size": 7836,
-              "width": 400,
-              "height": 277
-            }
-          }
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://www.instagram.com/p/B_J0aPyA4qY",
-          "source": "instagram",
-          "sourceId": ""
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "name": "Web Portfolio v2",
-      "displayName": "my-web-portfolio",
-      "summary": "Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes and to show my projects.",
-      "website": "https://bit.ly/rt-portfolio",
-      "githubUrl": "https://bit.ly/rt-portfolio-code",
-      "subtitle": "Used tech",
-      "classPosition": "flex-row-reverse",
-      "primaryLanguage": "",
-      "languages": ["HTML", "SCSS", "Javascript"],
-      "libraries": ["React-Bootstrap", "React", "NodeJS", "React-Router", "JQuery"],
-      "images": [
-        {
-          "resolutions": {
-            "micro": {
-              "id": 0,
-              "url": "/project-image2-min.png",
-              "size": 1228,
-              "width": 32,
-              "height": 22
-            },
-            "thumbnail": {
-              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-thumbnail",
-              "size": 4326,
-              "width": 224,
-              "height": 155
-            },
-            "mobile": {
-              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-mobile",
-              "size": 7821,
-              "width": 400,
-              "height": 277
-            },
-            "desktop": {
-              "url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg",
-              "size": 7836,
-              "width": 400,
-              "height": 277
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Project SAP Landing Web",
-      "displayName": "sap-landing-web",
-      "summary": "College project - Landing web for a made-up SAP company, Rules were to use ONLY html, css, bootstrap and some JS plugins. With this project I improved my Bootstrap skills and learn about JS plugins and how they work. ",
-      "website": "https://bit.ly/rt-sap-landing",
-      "githubUrl": "https://bit.ly/rt-sap-landing-code",
-      "subtitle": "Used tech",
-      "classPosition": false,
-      "primaryLanguage": "",
-      "languages": ["HTML", "CSS", "Javascript"],
-      "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
-      "images": [
-        {
-          "resolutions": {
-            "micro": {
-              "id": 0,
-              "url": "/project-image3-min.jpg",
-              "size": 1228,
-              "width": 32,
-              "height": 22
-            },
-            "thumbnail": {
-              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-thumbnail",
-              "size": 4326,
-              "width": 224,
-              "height": 155
-            },
-            "mobile": {
-              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-mobile",
-              "size": 7821,
-              "width": 400,
-              "height": 277
-            },
-            "desktop": {
-              "url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg",
-              "size": 7836,
-              "width": 400,
-              "height": 277
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Project SAP Home Web",
-      "displayName": "sap-home-web",
-      "summary": "Homepage from Landing. same rules applied from Landing project.",
-      "website": "https://bit.ly/rt-sap-homesite",
-      "githubUrl": "https://bit.ly/rt-sap-homesite-code",
-      "subtitle": "Used tech",
-      "classPosition": "flex-row-reverse",
-      "primaryLanguage": "",
-      "languages": ["HTML", "CSS", "Javascript"],
-      "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
-      "images": [
-        {
-          "resolutions": {
-            "micro": {
-              "id": 0,
-              "url": "/project-image4-min.png",
-              "size": 1228,
-              "width": 32,
-              "height": 22
-            },
-            "thumbnail": {
-              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-thumbnail",
-              "size": 4326,
-              "width": 224,
-              "height": 155
-            },
-            "mobile": {
-              "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-mobile",
-              "size": 7821,
-              "width": 400,
-              "height": 277
-            },
-            "desktop": {
-              "url": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=accion-brillar-concentrarse-dedos-735911.jpg&fm=jpg",
-              "size": 7836,
-              "width": 400,
-              "height": 277
-            }
-          }
-        }
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Instituto José Hernandez",
-      "area": "Comunicación Arte y Diseño",
-      "studyType": "Bachelor's of Arts",
-      "startDate": "2008",
-      "endDate": "2011",
-      "start": {
-        "year": 2008,
-        "month": null
+    ],
+    "education": [
+      {
+        "institution": "Instituto José Hernandez",
+        "area": "Comunicación Arte y Diseño",
+        "studyType": "Bachelor's of Arts",
+        "startDate": "2008",
+        "endDate": "2011",
+        "start": {
+          "year": 2008,
+          "month": null
+        },
+        "end": {
+          "year": 2011,
+          "month": null
+        },
+        "gpa": "4.0/4.0"
       },
-      "end": {
-        "year": 2011,
-        "month": null
+      {
+        "institution": "Universidad de San Martín",
+        "area": "Information Programming Technology",
+        "studyType": "",
+        "startDate": "2015",
+        "endDate": "",
+        "start": {
+          "year": 2015,
+          "month": null
+        },
+        "end": {
+          "year": null,
+          "month": null
+        },
+        "description": "",
+        "gpa": "4.0/4.0"
       },
-      "gpa": "4.0/4.0"
-    },
-    {
-      "institution": "Universidad de San Martín",
-      "area": "Information Programming Technology",
-      "studyType": "",
-      "startDate": "2015",
-      "endDate": "",
-      "start": {
-        "year": 2015,
-        "month": null
-      },
-      "end": {
-        "year": null,
-        "month": null
-      },
-      "description": "",
-      "gpa": "4.0/4.0"
-    },
-    {
-      "institution": "Escuela de Arte Multimedial Davinci",
-      "area": "Systems analyst",
-      "studyType": "",
-      "startDate": "2019",
-      "endDate": "",
-      "start": {
-        "year": 2019,
-        "month": null
-      },
-      "end": {
-        "year": null,
-        "month": null
-      },
-      "description": "",
-      "gpa": "4.0/4.0"
-    }
-  ],
-  "languages": ["Spanish", "English", "Japanese"]
+      {
+        "institution": "Escuela de Arte Multimedial Davinci",
+        "area": "Systems analyst",
+        "studyType": "",
+        "startDate": "2019",
+        "endDate": "",
+        "start": {
+          "year": 2019,
+          "month": null
+        },
+        "end": {
+          "year": null,
+          "month": null
+        },
+        "description": "",
+        "gpa": "4.0/4.0"
+      }
+    ],
+    "languages": ["Spanish", "English", "Japanese"]
+  }
 }

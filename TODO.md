@@ -23,6 +23,7 @@
   * [x] Goals? Historia? + Fotos (checkear v1)
   * [x] Boton redirects Projects Page
   * [x] Contact Form antes Footer
+  * [ ] Agregar imagenes assets, usar require + url
   * [ ] Responsive Portrait
   * [ ] Responsive Landscape  
 
@@ -47,12 +48,11 @@
 
 * [x] Agregar archivo con datos json. "gitconnected"
 * [x] Footer arreglado
-* [ ] Aprender SetState para cambiar valores.
 * [x] Componente para Form, que se utilizara en Contacto, Projectos y About.
 * [x] Ver como pasar props o states or whatever.
-* [ ] Agregar fotos de proyectos al json. en assets/
+* [ ] Aprender SetState para cambiar valores.
+* [x] Agregar fotos de proyectos al json. en assets/
 * [ ] Acortar json. muchos no se usan.
-* [ ] Agregar anti spam mail. Google?
 
 * [x] Agregar lina de separacion a titulos.
 * [ ] Checkear Responsive de columnas de todas las paginas
