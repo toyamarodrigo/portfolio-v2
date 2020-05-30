@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, HashRouter as Router, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 import profile from './profile.json';
@@ -19,7 +19,7 @@ class App extends React.Component {
       titles: {
         aboutTitle: 'About me',
         projectsTitle: 'Projects page',
-        ContactTitle: 'Contact page',
+        contactTitle: 'Contact page',
       },
     };
   }
@@ -27,7 +27,6 @@ class App extends React.Component {
   render() {
     const { titles } = this.state;
     return (
-      <Router basename={process.env.PUBLIC_URL}>
         <Container className="p-0" fluid={true}>
           <Header />
           <Switch>
@@ -51,7 +50,7 @@ class App extends React.Component {
               render={() => (
                 <ProjectsPage
                   profile={profile}
-                  title={profile.basics.pages.projects.title}
+                  title={titles}
                 />
               )}
             />
@@ -66,7 +65,6 @@ class App extends React.Component {
             />
           </Switch>
         </Container>
-      </Router>
     );
   }
 }

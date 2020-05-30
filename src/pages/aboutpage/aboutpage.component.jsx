@@ -7,14 +7,11 @@ import Form from '../../components/form/form.component';
 import './aboutpage.styles.scss';
 import { Card, Container, Col, Row } from 'react-bootstrap';
 
-// TODO: ver arreglar require(IMAGEN) local y no por fuera
-// TODO: Ver titulo responsive
-
 const AboutPage = ({ title, profile }) => (
   <div className="aboutpage landing">
     <ContentContainer>
       <div className="title-container">
-        <h1 className="text-center about-title">{title}</h1>
+        <h1 className="text-center about-title">{title.aboutTitle}</h1>
         <Row className="justify-content-center">
           <hr className="separator" />
         </Row>

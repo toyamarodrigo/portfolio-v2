@@ -14,7 +14,7 @@ const ProjectsPage = ({ profile, title }) => (
   <div className="projectspage landing">
     <ContentContainer className="py-0">
       <div className="title-container">
-        <h1 className="text-center title">{title}</h1>
+        <h1 className="text-center title">{title.projectsTitle}</h1>
       </div>
       <Row class="justify-content-center">
         <hr class="separator" />
