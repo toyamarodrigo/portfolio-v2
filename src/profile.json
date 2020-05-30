@@ -26,7 +26,7 @@
         "name": "file",
         "network": "CV",
         "animation": "connect-icon",
-        "url": "https://bit.ly/rt-cv-eng"
+        "url": "https://bit.ly/rt-cv-pdf-en"
       },
       {
         "name": "linkedin",
@@ -52,17 +52,17 @@
       {
         "id": 0,
         "name": "ig",
-        "url": "https://instagram.com/rt.codes"
+        "url": "https://bit.ly/rt-ig"
       },
       {
         "id": 1,
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/rodrigo-toyama-1861b1154/"
+        "url": "https://bit.ly/rtoyama-linkedin"
       },
       {
         "id": 2,
         "name": "github",
-        "url": "https://github.com/toyamarodrigo"
+        "url": "https://bit.ly/rt-github"
       }
     ]
   },
