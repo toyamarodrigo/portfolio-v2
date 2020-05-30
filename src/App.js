@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
+
 import profile from './profile.json';
 
 import Header from './components/header/header.component';
@@ -15,9 +16,6 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
-      email: '',
-      message: '',
       about: {
         title: 'About me',
       },
@@ -28,41 +26,6 @@ class App extends React.Component {
         title: 'Contact page',
       },
     };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(e) {
-    let change = {};
-    change[e.target.name] = e.target.value;
-    this.setState(change);
-  }
-
-  handleSubmit(e) {
-    e.preventDefault();
-
-    fetch('http://localhost:3000/contact', {
-      method: 'POST',
-      body: JSON.stringify(this.state),
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-      },
-    })
-      .then((response) => response.json())
-      .then((response) => {
-        if (response.status === 'success') {
-          alert('Message Sent.');
-          this.resetForm();
-        } else if (response.status === 'fail') {
-          alert('Message failed to send.');
-        }
-      });
-  }
-
-  resetForm() {
-    this.setState({ name: '', email: '', message: '' });
   }
 
   render() {
