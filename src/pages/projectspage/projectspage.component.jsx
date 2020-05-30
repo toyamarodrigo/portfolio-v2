@@ -6,10 +6,9 @@ import CardList from '../../components/card-list/card-list.component';
 import { Row } from 'react-bootstrap';
 
 import Footer from '../../components/footer/footer.component';
+import Form from '../../components/form/form.component';
 
 import './projectspage.styles.scss';
-
-// TODO: Agregar fotos de los proyectos en componente CardItem
 
 const ProjectsPage = ({ profile, title }) => (
   <div className="projectspage landing">
@@ -24,6 +23,7 @@ const ProjectsPage = ({ profile, title }) => (
     <CardList>
       <CardItem profile={profile} />
     </CardList>
+    <Form />
     <Footer profile={profile} />
   </div>
 );

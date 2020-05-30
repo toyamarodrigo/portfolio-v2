@@ -5,9 +5,6 @@ import Form from '../../components/form/form.component';
 
 import './contactpage.styles.scss';
 
-// TODO: arreglar el form con handleChange y submit. hacer que envie mail. firebase? node? express? php?
-// ? https://medium.com/@intentionalkreative/a-simple-and-easy-contact-form-step-by-step-tutorial-react-js-1532bc025980
-
 const ContactPage = ({ title, profile }) => (
   <div className="contactpage landing">
     <ContentContainer>

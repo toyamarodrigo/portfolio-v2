@@ -2,9 +2,10 @@ import React from 'react';
 import ContentContainer from '../../components/content-container/content-container.component';
 import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/footer.component';
+import Form from '../../components/form/form.component';
 
 import './aboutpage.styles.scss';
-import { Card, Container, Col, Row, Button } from 'react-bootstrap';
+import { Card, Container, Col, Row } from 'react-bootstrap';
 
 // TODO: ver arreglar require(IMAGEN) local y no por fuera
 // TODO: Ver titulo responsive
@@ -91,7 +92,10 @@ const AboutPage = ({ title, profile }) => (
               documenting/bloging my journey of becoming a developer to inspire
               others as well as keep myself acountable. So I started my
               Instagram
-              <a href="https://www.instagram.com/rt.codes/" className="ig-link"> @rt.codes </a>
+              <a href="https://www.instagram.com/rt.codes/" className="ig-link">
+                {' '}
+                @rt.codes{' '}
+              </a>
               talking about the progress I was making and what concepts I was
               currently learning.
             </Card.Text>
@@ -115,61 +119,7 @@ const AboutPage = ({ title, profile }) => (
       </Row>
     </Container>
 
-    <section id="Contact">
-      <div className="container footer-container pt-5">
-        <h2 className="text-center title">Contact me</h2>
-
-        <div className="row justify-content-center">
-          <hr className="separator" />
-        </div>
-
-        <h5 className="text-center text-white my-4">
-          Let's work together to create game-changing experiences.
-        </h5>
-
-        <div className="row justify-content-center">
-          <form className="col-md-10 col-lg-8 pt-3 text-center">
-            <div className="form-group">
-              <input
-                type="text"
-                className="form-control mb-4"
-                placeholder="Name"
-              />
-              <input
-                type="email"
-                className="form-control mb-4"
-                id="Email"
-                aria-describedby="emailHelp"
-                placeholder="Email"
-              />
-              <div className="form-group">
-                <textarea
-                  className="form-control"
-                  id="TextArea"
-                  rows="3"
-                  placeholder="Message"
-                ></textarea>
-                <small
-                  id="emailHelp"
-                  className="form-text text-muted text-center mt-3"
-                >
-                  We'll never share your email with anyone else.
-                </small>
-              </div>
-            </div>
-            <Container className="py-4 view-project-btn-container">
-              <Row className="justify-content-center">
-                <Col lg={4} className="text-center">
-                  <Button type="submit" className="custom-btn">
-                    Submit
-                  </Button>
-                </Col>
-              </Row>
-            </Container>
-          </form>
-        </div>
-      </div>
-    </section>
+    <Form />
 
     <Footer profile={profile} />
   </div>

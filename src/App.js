@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
+import { Switch, HashRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 import profile from './profile.json';
@@ -16,20 +16,16 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      about: {
-        title: 'About me',
-      },
-      projects: {
-        title: 'Projects page',
-      },
-      contact: {
-        title: 'Contact page',
+      titles: {
+        aboutTitle: 'About me',
+        projectsTitle: 'Projects page',
+        ContactTitle: 'Contact page',
       },
     };
   }
 
   render() {
-    const { name, mail, message, about, contact } = this.state;
+    const { titles } = this.state;
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <Container className="p-0" fluid={true}>
@@ -48,7 +44,7 @@ class App extends React.Component {
             />
             <Route
               path="/about"
-              render={() => <AboutPage title={about.title} profile={profile} />}
+              render={() => <AboutPage title={titles} profile={profile} />}
             />
             <Route
               path="/projects"
@@ -63,13 +59,8 @@ class App extends React.Component {
               path="/contact"
               render={() => (
                 <ContactPage
-                  title={contact.title}
+                  title={titles}
                   profile={profile}
-                  name={name}
-                  mail={mail}
-                  message={message}
-                  onChange={this.handleChange}
-                  onSubmit={this.handleSubmit}
                 />
               )}
             />
