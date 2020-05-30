@@ -15,276 +15,276 @@
         "aboutTitle": "About me",
         "projectsTitle": "My Projects",
         "contactTitle": "Contact me"
-      },
-      "profiles": [
-        {
-          "name": "file",
-          "network": "CV",
-          "animation": "connect-icon",
-          "url": "https://bit.ly/rt-cv-pdf-en"
-        },
-        {
-          "name": "linkedin",
-          "network": "LinkedIn",
-          "animation": "connect-icon",
-          "url": "https://bit.ly/rtoyama-linkedin"
-        },
-        {
-          "name": "github",
-          "network": "GitHub",
-          "username": "toyamarodrigo",
-          "animation": "connect-icon",
-          "url": "https://bit.ly/rt-github"
-        },
-        {
-          "name": "mail",
-          "network": "Mail",
-          "url": "mailto:toyama.rodrigo@gmail.com",
-          "animation": "connect-icon"
-        }
-      ],
-      "footer": [
-        {
-          "id": 0,
-          "name": "ig",
-          "url": "https://bit.ly/rt-ig"
-        },
-        {
-          "id": 1,
-          "name": "linkedin",
-          "url": "https://bit.ly/rtoyama-linkedin"
-        },
-        {
-          "id": 2,
-          "name": "github",
-          "url": "https://bit.ly/rt-github"
-        }
-      ]
+      }
     },
-    "skills": [
+    "profiles": [
       {
-        "name": "HTML",
-        "level": "",
-        "keywords": []
+        "name": "file",
+        "network": "CV",
+        "animation": "connect-icon",
+        "url": "https://bit.ly/rt-cv-pdf-en"
       },
       {
-        "name": "CSS",
-        "level": "",
-        "keywords": []
+        "name": "linkedin",
+        "network": "LinkedIn",
+        "animation": "connect-icon",
+        "url": "https://bit.ly/rtoyama-linkedin"
       },
       {
-        "name": "Javascript",
-        "level": "",
-        "keywords": []
+        "name": "github",
+        "network": "GitHub",
+        "username": "toyamarodrigo",
+        "animation": "connect-icon",
+        "url": "https://bit.ly/rt-github"
       },
       {
-        "name": "Java",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "MySQL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "JQuery",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Bootstrap 4",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Spring Framework",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Hibernate",
-        "level": "",
-        "keywords": []
+        "name": "mail",
+        "network": "Mail",
+        "url": "mailto:toyama.rodrigo@gmail.com",
+        "animation": "connect-icon"
       }
     ],
-    "projects": [
+    "footer": [
       {
         "id": 0,
-        "name": "Invoice Management System",
-        "displayName": "invoice-management-system",
-        "summary": "Main objective of this project was managing Customers and their Invoices. Developed all type of CRUD operations, learning Spring Framework and Java in the process also how Hibernate works and the use of Thymeleaf and JQuery.",
-        "website": "https://bit.ly/rt-invoice",
-        "githubUrl": "https://bit.ly/rt-invoice-code",
-        "subtitle": "Used tech",
-        "classPosition": false,
-        "primaryLanguage": "",
-        "languages": ["HTML", "CSS", "Java", "Javascript", "MySQL"],
-        "libraries": [
-          "JQuery",
-          "MD-Bootstrap",
-          "Spring Framework",
-          "Hibernate",
-          "Thymeleaf"
-        ],
-        "images": [
-          {
-            "resolutions": {
-              "micro": {
-                "id": 0,
-                "url": "/project-image1-min.png",
-                "size": 1228,
-                "width": 32,
-                "height": 22
-              }
-            }
-          }
-        ],
-        "videos": [
-          {
-            "url": "https://www.instagram.com/p/B_J0aPyA4qY",
-            "source": "instagram",
-            "sourceId": ""
-          }
-        ]
+        "name": "ig",
+        "url": "https://bit.ly/rt-ig"
       },
       {
         "id": 1,
-        "name": "Web Portfolio v2",
-        "displayName": "my-web-portfolio",
-        "summary": "Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes and to show my projects.",
-        "website": "https://bit.ly/rt-portfolio",
-        "githubUrl": "https://bit.ly/rt-portfolio-code",
-        "subtitle": "Used tech",
-        "classPosition": "flex-row-reverse",
-        "primaryLanguage": "",
-        "languages": ["HTML", "SCSS", "Javascript"],
-        "libraries": [
-          "React-Bootstrap",
-          "React",
-          "NodeJS",
-          "React-Router",
-          "JQuery"
-        ],
-        "images": [
-          {
-            "resolutions": {
-              "micro": {
-                "id": 0,
-                "url": "/project-image2-min.png",
-                "size": 1228,
-                "width": 32,
-                "height": 22
-              }
-            }
-          }
-        ]
+        "name": "linkedin",
+        "url": "https://bit.ly/rtoyama-linkedin"
       },
       {
         "id": 2,
-        "name": "Project SAP Landing Web",
-        "displayName": "sap-landing-web",
-        "summary": "College project - Landing web for a made-up SAP company, Rules were to use ONLY html, css, bootstrap and some JS plugins. With this project I improved my Bootstrap skills and learn about JS plugins and how they work. ",
-        "website": "https://bit.ly/rt-sap-landing",
-        "githubUrl": "https://bit.ly/rt-sap-landing-code",
-        "subtitle": "Used tech",
-        "classPosition": false,
-        "primaryLanguage": "",
-        "languages": ["HTML", "CSS", "Javascript"],
-        "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
-        "images": [
-          {
-            "resolutions": {
-              "micro": {
-                "id": 0,
-                "url": "/project-image3-min.jpg",
-                "size": 1228,
-                "width": 32,
-                "height": 22
-              }
+        "name": "github",
+        "url": "https://bit.ly/rt-github"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Javascript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap 4",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hibernate",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "projects": [
+    {
+      "id": 0,
+      "name": "Invoice Management System",
+      "displayName": "invoice-management-system",
+      "summary": "Main objective of this project was managing Customers and their Invoices. Developed all type of CRUD operations, learning Spring Framework and Java in the process also how Hibernate works and the use of Thymeleaf and JQuery.",
+      "website": "https://bit.ly/rt-invoice",
+      "githubUrl": "https://bit.ly/rt-invoice-code",
+      "subtitle": "Used tech",
+      "classPosition": false,
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Java", "Javascript", "MySQL"],
+      "libraries": [
+        "JQuery",
+        "MD-Bootstrap",
+        "Spring Framework",
+        "Hibernate",
+        "Thymeleaf"
+      ],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image1-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
             }
           }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Project SAP Home Web",
-        "displayName": "sap-home-web",
-        "summary": "Homepage from Landing. same rules applied from Landing project.",
-        "website": "https://bit.ly/rt-sap-homesite",
-        "githubUrl": "https://bit.ly/rt-sap-homesite-code",
-        "subtitle": "Used tech",
-        "classPosition": "flex-row-reverse",
-        "primaryLanguage": "",
-        "languages": ["HTML", "CSS", "Javascript"],
-        "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
-        "images": [
-          {
-            "resolutions": {
-              "micro": {
-                "id": 0,
-                "url": "/project-image4-min.png",
-                "size": 1228,
-                "width": 32,
-                "height": 22
-              }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.instagram.com/p/B_J0aPyA4qY",
+          "source": "instagram",
+          "sourceId": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Web Portfolio v2",
+      "displayName": "my-web-portfolio",
+      "summary": "Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes and to show my projects.",
+      "website": "https://bit.ly/rt-portfolio",
+      "githubUrl": "https://bit.ly/rt-portfolio-code",
+      "subtitle": "Used tech",
+      "classPosition": "flex-row-reverse",
+      "primaryLanguage": "",
+      "languages": ["HTML", "SCSS", "Javascript"],
+      "libraries": [
+        "React-Bootstrap",
+        "React",
+        "NodeJS",
+        "React-Router",
+        "JQuery"
+      ],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image2-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
             }
           }
-        ]
-      }
-    ],
-    "education": [
-      {
-        "institution": "Instituto José Hernandez",
-        "area": "Comunicación Arte y Diseño",
-        "studyType": "Bachelor's of Arts",
-        "startDate": "2008",
-        "endDate": "2011",
-        "start": {
-          "year": 2008,
-          "month": null
-        },
-        "end": {
-          "year": 2011,
-          "month": null
-        },
-        "gpa": "4.0/4.0"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Project SAP Landing Web",
+      "displayName": "sap-landing-web",
+      "summary": "College project - Landing web for a made-up SAP company, Rules were to use ONLY html, css, bootstrap and some JS plugins. With this project I improved my Bootstrap skills and learn about JS plugins and how they work. ",
+      "website": "https://bit.ly/rt-sap-landing",
+      "githubUrl": "https://bit.ly/rt-sap-landing-code",
+      "subtitle": "Used tech",
+      "classPosition": false,
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Javascript"],
+      "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image3-min.jpg",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Project SAP Home Web",
+      "displayName": "sap-home-web",
+      "summary": "Homepage from Landing. same rules applied from Landing project.",
+      "website": "https://bit.ly/rt-sap-homesite",
+      "githubUrl": "https://bit.ly/rt-sap-homesite-code",
+      "subtitle": "Used tech",
+      "classPosition": "flex-row-reverse",
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Javascript"],
+      "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image4-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto José Hernandez",
+      "area": "Comunicación Arte y Diseño",
+      "studyType": "Bachelor's of Arts",
+      "startDate": "2008",
+      "endDate": "2011",
+      "start": {
+        "year": 2008,
+        "month": null
       },
-      {
-        "institution": "Universidad de San Martín",
-        "area": "Information Programming Technology",
-        "studyType": "",
-        "startDate": "2015",
-        "endDate": "",
-        "start": {
-          "year": 2015,
-          "month": null
-        },
-        "end": {
-          "year": null,
-          "month": null
-        },
-        "description": "",
-        "gpa": "4.0/4.0"
+      "end": {
+        "year": 2011,
+        "month": null
       },
-      {
-        "institution": "Escuela de Arte Multimedial Davinci",
-        "area": "Systems analyst",
-        "studyType": "",
-        "startDate": "2019",
-        "endDate": "",
-        "start": {
-          "year": 2019,
-          "month": null
-        },
-        "end": {
-          "year": null,
-          "month": null
-        },
-        "description": "",
-        "gpa": "4.0/4.0"
-      }
-    ],
-    "languages": ["Spanish", "English", "Japanese"]
-  }
+      "gpa": "4.0/4.0"
+    },
+    {
+      "institution": "Universidad de San Martín",
+      "area": "Information Programming Technology",
+      "studyType": "",
+      "startDate": "2015",
+      "endDate": "",
+      "start": {
+        "year": 2015,
+        "month": null
+      },
+      "end": {
+        "year": null,
+        "month": null
+      },
+      "description": "",
+      "gpa": "4.0/4.0"
+    },
+    {
+      "institution": "Escuela de Arte Multimedial Davinci",
+      "area": "Systems analyst",
+      "studyType": "",
+      "startDate": "2019",
+      "endDate": "",
+      "start": {
+        "year": 2019,
+        "month": null
+      },
+      "end": {
+        "year": null,
+        "month": null
+      },
+      "description": "",
+      "gpa": "4.0/4.0"
+    }
+  ],
+  "languages": ["Spanish", "English", "Japanese"]
 }
