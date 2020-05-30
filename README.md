@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Web Portfolio v2
 
-## Available Scripts
+Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes and to show my projects.
 
-In the project directory, you can run:
+## Learned
 
-### `npm start`
+* Use of DNS, Domains and Hosting.
+* Passing props.
+* Fixing Viewport problems on large and small devices.
+* Routing.
+* Use of components, states.
+* Sass.
+* MDBootstrap.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Difficulties
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I had some difficulties trying to use Github Pages because is not smart enought to use React's Route component out of the box.
 
-### `npm test`
+Thanks to Brendan Mclhenny who had the same issue.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Host single page react app on Github Pages](https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48)
 
-### `npm run build`
+> [...] "when I manually navigated to certain URLS like “<https://bmcilhenny.github.io/trivia-front-end/edit”> I stumbled into a 404 error. I could reach this route via my Nav bar on my home page but after I refreshed GitHub was still spewing out a 404 error. It took me another hour to realize that this is GitHub’s issue, not mine. Due to the way GitHub converts your React app into a GitHub-like repo it always looks to the index.html file to render. So you need to add a script to your index.html file to hackily redirect from the index.html file to the correct component."
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+and used 2 scripts wrote by an angel:
+[spa-github-pages](https://www.github.com/rafrex/spa-github-pages)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Home:
 
-### `npm run eject`
+![Homepage](https://i.imgur.com/P4swjX7.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+About page:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![About me](https://i.imgur.com/t67iUw3.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Projects page:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![My Projects](https://i.imgur.com/ZO3xJWX.png)
 
-## Learn More
+Contact page:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![Contact](https://i.imgur.com/BJRPWfk.png)
