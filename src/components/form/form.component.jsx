@@ -89,7 +89,7 @@ class Form extends React.Component {
                 <Row className="justify-content-center">
                   <Col lg={4} className="text-center">
                     {status === 'SUCCESS' ? (
-                      <p className="text-white">Thanks!</p>
+                      <p className="text-white">Message Sent!</p>
                     ) : (
                       <Button type="submit" className="custom-btn">
                         Submit
