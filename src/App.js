@@ -18,8 +18,8 @@ class App extends React.Component {
     this.state = {
       titles: {
         aboutTitle: 'About me',
-        projectsTitle: 'Projects page',
-        contactTitle: 'Contact page',
+        projectsTitle: 'My Projects',
+        contactTitle: 'Contact me',
       },
     };
   }
