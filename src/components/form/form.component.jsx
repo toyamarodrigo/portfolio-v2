@@ -47,7 +47,7 @@ class Form extends React.Component {
               Let's work together to create game-changing experiences.
             </h5>
           </Col>
-          <Col xs={12} md={8} lg={6}>
+          <Col xs={12} md={8} lg={5}>
             <form
               className="pt-3 text-center"
               method="post"
