@@ -58,22 +58,26 @@ const CardItem = ({ profile }) => (
                   </Col>
                 </Row>
                 <Row className="justify-content-around">
-                  <Button
-                    className="col-10 mx-1 my-2 custom-btn btn-block"
-                    href={project.githubUrl}
-                    target="_blank"
-                  >
-                    <FontAwesomeIcon icon={faCode} className="mr-2" />
-                    code
-                  </Button>
-                  <Button
-                    className="col-10 mx-1 custom-btn btn-block"
-                    href={project.website}
-                    target="_blank"
-                  >
-                    <FontAwesomeIcon icon={faSearch} className="mr-2" />
-                    view
-                  </Button>
+                  <Col xs={12}>
+                    <Button
+                      className="mx-1 my-2 custom-btn btn-block"
+                      href={project.githubUrl}
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon icon={faCode} className="mr-2" />
+                      code
+                    </Button>
+                  </Col>
+                  <Col xs={12}>
+                    <Button
+                      className="mx-1 custom-btn btn-block"
+                      href={project.website}
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon icon={faSearch} className="mr-2" />
+                      view
+                    </Button>
+                  </Col>
                 </Row>
               </Card.Body>
             </Col>
