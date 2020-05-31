@@ -6,14 +6,16 @@ import Form from '../../components/form/form.component';
 import './contactpage.styles.scss';
 
 const ContactPage = ({ title, profile }) => (
-  <div className="contactpage landing">
-    <ContentContainer>
-      <div className="title-container">
-        <h1 className="text-center title">{title.contactTitle}</h1>
-      </div>
-    </ContentContainer>
-    <Form />
-    <Footer profile={profile} />
+  <div className="contactpage">
+    <div className="landing">
+      <ContentContainer>
+        <div className="title-container">
+          <h1 className="text-center title">{title.contactTitle}</h1>
+        </div>
+      </ContentContainer>
+      <Form />
+      <Footer profile={profile} />
+    </div>
   </div>
 );
 
