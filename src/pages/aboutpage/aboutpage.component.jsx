@@ -35,7 +35,7 @@ const AboutPage = ({ title, profile }) => (
             </Card.Text>
             <Card.Text>
               Passionate about Software and Web development. I love to learn new
-              things as well as solving real world problems.
+              things as well as solving real-world problems.
             </Card.Text>
           </Card.Body>
         </Col>
@@ -60,11 +60,11 @@ const AboutPage = ({ title, profile }) => (
         <Col xs={12} lg={5}>
           <Card.Body className="text-white about-me">
             <Card.Text>
-              My goal is to provide high quality work to clients no matter if
+              My goal is to provide high-quality work to clients no matter if
               the project is small or of high complexity.
             </Card.Text>
             <Card.Text>
-              I entered the world of Software development because I realised
+              I entered the world of Software development because I realized
               that I can make an impact on people by just using my imagination
               and passion when building applications.
             </Card.Text>
@@ -86,8 +86,8 @@ const AboutPage = ({ title, profile }) => (
           <Card.Body className="text-white about-me">
             <Card.Text>
               By 2018, I thought it would be a good idea to start
-              documenting/bloging my journey of becoming a developer to inspire
-              others as well as keep myself acountable. So I started my
+              documenting/blogging my journey of becoming a developer to inspire
+              others as well as keep myself accountable. So I started my
               Instagram
               <a href="https://www.instagram.com/rt.codes/" className="ig-link">
                 {' '}
@@ -98,7 +98,7 @@ const AboutPage = ({ title, profile }) => (
             </Card.Text>
             <Card.Text>
               I also did a bunch of Personal projects with the knowledge I
-              gathered from courses and Internet. Check them out on the button
+              gathered from courses and the Internet. Check them out on the button
               below.
             </Card.Text>
           </Card.Body>
