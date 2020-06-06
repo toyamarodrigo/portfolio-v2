@@ -183,6 +183,40 @@
     },
     {
       "id": 2,
+      "name": "React COVID-19",
+      "displayName": "react-covid19",
+      "summary": "Project for learning purposes, Fetching data from COVID19 API",
+      "website": "https://bit.ly/rt-react-covid",
+      "githubUrl": "https://bit.ly/rt-react-covid-code",
+      "subtitle": "Used tech",
+      "classPosition": "flex-row-reverse",
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Javascript", "JSX"],
+      "libraries": [
+        "Material UI",
+        "React",
+        "React-Router",
+        "Axios",
+        "classnames",
+        "API",
+        "CountUp.js"
+      ],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image5-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
       "name": "Project SAP Landing Web",
       "displayName": "sap-landing-web",
       "summary": "College project - Landing web for a made-up SAP company, Rules were to use ONLY HTML, CSS, bootstrap, and some JS plugins. With this project, I improved my Bootstrap skills and learn about JS plugins and how they work. ",
@@ -208,7 +242,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Project SAP Home Web",
       "displayName": "sap-home-web",
       "summary": "Homepage from Landing. same rules applied from Landing project.",
