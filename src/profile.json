@@ -114,13 +114,8 @@
       "id": 0,
       "name": "Invoice Management System",
       "displayName": "invoice-management-system",
-<<<<<<< HEAD
       "summary": "Main objective of this project was managing Customers and their Invoices. Developed all type of CRUD operations, learning Spring Framework and Java in the process also how Hibernate works and the use of Thymeleaf and JQuery.",
       "website": "https://bit.ly/rt-invoice-v3",
-=======
-      "summary": "The main objective of this project was managing Customers and their Invoices. Developed all types of CRUD operations, learning Spring Framework and Java in the process also how Hibernate works and the use of Thymeleaf and JQuery.",
-      "website": "https://bit.ly/rt-invoice",
->>>>>>> 9eb3e419a635db6eef87c129ba7c5dd905e64cbf
       "githubUrl": "https://bit.ly/rt-invoice-code",
       "subtitle": "Used tech",
       "classPosition": false,
