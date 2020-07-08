@@ -60,3 +60,7 @@
 * [x] Quitar 100vh por que en mobile no sirve, por el Address Bar. usar Viewports
 * [x] Arreglar padding/margin de Navbar en mobile.
 * [x] Close Menu Hamburger cuando haces click afuera.
+* [ ] Agregar Botón Dark/Light theme.
+* [ ] Agregar Botón Traducción español/ingles.
+
+
