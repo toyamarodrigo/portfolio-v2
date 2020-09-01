@@ -266,6 +266,32 @@
           }
         }
       ]
+    },
+    {
+      "id": 5,
+      "name": "DWL (Youtube Downloader)",
+      "displayName": "dwl-ytdl",
+      "summary": "In proces... A simple Youtube Downloader using npm ytdl-core",
+      "website": "",
+      "githubUrl": "https://github.com/toyamarodrigo/dwlyoutube",
+      "subtitle": "Used tech",
+      "classPosition": "false",
+      "primaryLanguage": "",
+      "languages": ["HTML", "SCSS", "Javascript", "JSX" ],
+      "libraries": ["ReactBootstrap", "Express", "NodeJS", "axios", "ytdl-core"],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image5-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ]
     }
   ],
   "education": [
