@@ -62,5 +62,6 @@
 * [x] Close Menu Hamburger cuando haces click afuera.
 * [ ] Agregar Botón Dark/Light theme.
 * [ ] Agregar Botón Traducción español/ingles.
+* [ ] Agregar 404 page
 
 
