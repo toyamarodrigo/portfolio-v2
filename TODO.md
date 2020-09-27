@@ -6,7 +6,6 @@
   * [x] enlazar Router
   * [x] Cuando click en Pagina sobre Menu Hamburguesa, cerrar el Hamburguesa (Cambia página pero queda abierto el menu).
   * [x] Cerrar hamburguesa cuando click afuera del elemento.  
-  * [ ] Responsive Portrait
 
 * [x] Home Page
   * [x] Contact List Efectos
@@ -22,7 +21,6 @@
   * [x] Boton redirects Projects Page
   * [x] Contact Form antes Footer
   * [ ] Agregar imagenes assets, usar require + url
-  * [ ] Responsive Portrait
 
 * [ ] Projects Page
   * [x] Agregar Cards para proyectos
@@ -30,12 +28,11 @@
   * [x] Agregar info a las Cards + Fotos
   * [x] Update repo de cada proyecto con imagenes
   * [x] Contact Form antes Footer
-  * [ ] Responsive Portrait
+  * [ ] Ir Actualizando Proyectos
 
 * [ ] Contact page
   * [x] Agregar Form
   * [x] Make it work
-  * [ ] Responsive Portrait
 
 ---
 
