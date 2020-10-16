@@ -6,8 +6,6 @@
   * [x] enlazar Router
   * [x] Cuando click en Pagina sobre Menu Hamburguesa, cerrar el Hamburguesa (Cambia página pero queda abierto el menu).
   * [x] Cerrar hamburguesa cuando click afuera del elemento.  
-  * [ ] Responsive Portrait
-  * [ ] Responsive Landscape  
 
 * [x] Home Page
   * [x] Contact List Efectos
@@ -15,7 +13,6 @@
   * [x] Boton a Projects
   * [x] Ver contact-list e item props del json.
   * [x] Responsive Portrait
-  * [ ] Responsive Landscape  
   * [ ] Agregar Skills
 
 * [ ] About Page
@@ -24,8 +21,6 @@
   * [x] Boton redirects Projects Page
   * [x] Contact Form antes Footer
   * [ ] Agregar imagenes assets, usar require + url
-  * [ ] Responsive Portrait
-  * [ ] Responsive Landscape  
 
 * [ ] Projects Page
   * [x] Agregar Cards para proyectos
@@ -33,14 +28,11 @@
   * [x] Agregar info a las Cards + Fotos
   * [x] Update repo de cada proyecto con imagenes
   * [x] Contact Form antes Footer
-  * [ ] Responsive Portrait
-  * [ ] Responsive Landscape
+  * [ ] Ir Actualizando Proyectos
 
 * [ ] Contact page
   * [x] Agregar Form
   * [x] Make it work
-  * [ ] Responsive Portrait
-  * [ ] Responsive Landscape
 
 ---
 
@@ -53,6 +45,7 @@
 * [ ] Aprender SetState para cambiar valores.
 * [x] Agregar fotos de proyectos al json. en assets/
 * [ ] Acortar json. muchos no se usan.
+* [ ] Reformatear scss.
 
 * [x] Agregar lina de separacion a titulos.
 * [ ] Checkear Responsive de columnas de todas las paginas
@@ -62,5 +55,3 @@
 * [x] Close Menu Hamburger cuando haces click afuera.
 * [ ] Agregar Botón Dark/Light theme.
 * [ ] Agregar Botón Traducción español/ingles.
-
-
