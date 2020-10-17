@@ -217,6 +217,75 @@
     },
     {
       "id": 3,
+      "name": "Todo App",
+      "displayName": "todo-app",
+      "summary": "Simple Todo App made with ReactJS and Hooks",
+      "website": "https://rt-todo-app.netlify.app/",
+      "githubUrl": "https://github.com/toyamarodrigo/todo-app",
+      "subtitle": "Used tech",
+      "classPosition": false,
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Javascript", "JSX"],
+      "libraries": [
+        "Material-UI",
+        "NodeJS",
+        "Hooks",
+        "ReactJS",
+        "LocalStorage"
+      ],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image7-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "dwb (Youtube Downloader)",
+      "displayName": "dwl-ytdl",
+      "summary": "A simple HQ mp3/mp4 Youtube Downloader",
+      "website": "https://rt-dwb-app.herokuapp.com/",
+      "githubUrl": "https://github.com/toyamarodrigo/dwb-app",
+      "subtitle": "Used tech",
+      "classPosition": "flex-row-reverse",
+      "primaryLanguage": "",
+      "languages": ["HTML", "SCSS", "Javascript", "JSX"],
+      "libraries": [
+        "ReactJS",
+        "Bootstrap",
+        "Express",
+        "NodeJS",
+        "socket.io",
+        "axios",
+        "node-ytdl-core",
+        "validator",
+        "fluent-ffmpeg",
+        "nodemon"
+      ],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image6-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
       "name": "Project SAP Landing Web",
       "displayName": "sap-landing-web",
       "summary": "College project - Landing web for a made-up SAP company, Rules were to use ONLY HTML, CSS, bootstrap, and some JS plugins. With this project, I improved my Bootstrap skills and learn about JS plugins and how they work. ",
@@ -242,7 +311,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "Project SAP Home Web",
       "displayName": "sap-home-web",
       "summary": "Homepage from Landing. same rules applied from Landing project.",
@@ -259,58 +328,6 @@
             "micro": {
               "id": 0,
               "url": "/project-image4-min.png",
-              "size": 1228,
-              "width": 32,
-              "height": 22
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Todo App",
-      "displayName": "todo-app",
-      "summary": "Simple Todo App made with ReactJS and Hooks",
-      "website": "",
-      "githubUrl": "https://github.com/toyamarodrigo/todo-app",
-      "subtitle": "Used tech",
-      "classPosition": false,
-      "primaryLanguage": "",
-      "languages": ["HTML", "CSS", "Javascript", "JSX"],
-      "libraries": ["Material-UI", "NodeJS", "Hooks", "ReactJS", "LocalStorage"],
-      "images": [
-        {
-          "resolutions": {
-            "micro": {
-              "id": 0,
-              "url": "/project-image5-min.png",
-              "size": 1228,
-              "width": 32,
-              "height": 22
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "dwb (Youtube Downloader)",
-      "displayName": "dwl-ytdl",
-      "summary": "A simple Youtube Downloader using npm ytdl-core",
-      "website": "https://rt-dwb-app.herokuapp.com/",
-      "githubUrl": "https://github.com/toyamarodrigo/dwb-app",
-      "subtitle": "Used tech",
-      "classPosition": "flex-row-reverse",
-      "primaryLanguage": "",
-      "languages": ["HTML", "SCSS", "Javascript", "JSX" ],
-      "libraries": ["ReactJS", "Bootstrap", "Express", "NodeJS", "socket.io" , "axios", "node-ytdl-core", "validator", "fluent-ffmpeg", "nodemon"],
-      "images": [
-        {
-          "resolutions": {
-            "micro": {
-              "id": 0,
-              "url": "/project-image6-min.png",
               "size": 1228,
               "width": 32,
               "height": 22
