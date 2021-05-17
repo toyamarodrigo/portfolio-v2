@@ -122,6 +122,8 @@
       "primaryLanguage": "",
       "languages": ["HTML", "SCSS", "Javascript"],
       "libraries": [
+        "ReactJS",
+        "GatsbyJS",
         "Bootstrap",
         "React-Splide",
         "Animate",
