@@ -112,6 +112,129 @@
   "projects": [
     {
       "id": 0,
+      "name": "Web Development",
+      "displayName": "web-skols-solutions",
+      "summary": "Layout and Development of Website for Skols Solutions. Used of GatsbyJS Framework fot Static Site Generator. Design made by Alvaro Arakaki.",
+      "website": "http://bit.ly/rt-skols",
+      "githubUrl": "",
+      "subtitle": "Used tech",
+      "classPosition": false,
+      "primaryLanguage": "",
+      "languages": ["HTML", "SCSS", "Javascript"],
+      "libraries": [
+        "Bootstrap",
+        "React-Splide",
+        "Animate",
+        "FontAwesome",
+        "WowJS"
+      ],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image1-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Invoice Management System",
+      "displayName": "invoice-management-system",
+      "summary": "Main objective of this project was managing Customers and their Invoices. Developed all type of CRUD operations, learning Spring Framework and Java in the process also how Hibernate works and the use of Thymeleaf and JQuery.",
+      "website": "https://bit.ly/rt-invoice-v3",
+      "githubUrl": "https://bit.ly/rt-invoice-code",
+      "subtitle": "Used tech",
+      "classPosition": false,
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Java", "Javascript", "MySQL"],
+      "libraries": [
+        "JQuery",
+        "MD-Bootstrap",
+        "Spring Framework",
+        "Hibernate",
+        "Thymeleaf"
+      ],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image4-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.instagram.com/p/B_J0aPyA4qY",
+          "source": "instagram",
+          "sourceId": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pokemon App",
+      "displayName": "pokemonapp",
+      "summary": "Project for College. Simple CreateReactApp where you can search for a specific Pokemon or a Random Pokemon from the PokeApi and see its stats such as HP,EXP,DF,SP, Height, and Weight.",
+      "website": "http://bit.ly/rt-pokemonapp",
+      "githubUrl": "http://bit.ly/rt-pokemonapp-code",
+      "subtitle": "Used tech",
+      "classPosition": false,
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Javascript"],
+      "libraries": ["ReactJS", "React-Router", "Styled-Components"],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image2-min.png",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Falling Words game",
+      "displayName": "falling-words-game",
+      "summary": "Project for College. This is a game where you must type the word falling as fast as you can before it reaches the bottom cyan line. If it touches you lose. Objective of this project was to learn all the javascript fundamentals.",
+      "website": "http://bit.ly/rt-falling-words-game",
+      "githubUrl": "http://bit.ly/rt-falling-words-code",
+      "subtitle": "Used tech",
+      "classPosition": false,
+      "primaryLanguage": "",
+      "languages": ["HTML", "CSS", "Javascript"],
+      "libraries": ["Bootstrap"],
+      "images": [
+        {
+          "resolutions": {
+            "micro": {
+              "id": 0,
+              "url": "/project-image3-min.jpeg",
+              "size": 1228,
+              "width": 32,
+              "height": 22
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
       "name": "Invoice Management System",
       "displayName": "invoice-management-system",
       "summary": "Main objective of this project was managing Customers and their Invoices. Developed all type of CRUD operations, learning Spring Framework and Java in the process also how Hibernate works and the use of Thymeleaf and JQuery.",
@@ -150,7 +273,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 5,
       "name": "Web Portfolio v2",
       "displayName": "my-web-portfolio",
       "summary": "Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes and to show my projects.",
@@ -172,7 +295,7 @@
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image2-min.png",
+              "url": "/project-image5-min.png",
               "size": 1228,
               "width": 32,
               "height": 22
@@ -182,7 +305,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 6,
       "name": "React COVID-19",
       "displayName": "react-covid19",
       "summary": "Project for learning purposes, Fetching data from COVID19 API",
@@ -206,7 +329,7 @@
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image5-min.png",
+              "url": "/project-image8-min.png",
               "size": 1228,
               "width": 32,
               "height": 22
@@ -216,7 +339,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 7,
       "name": "Todo App",
       "displayName": "todo-app",
       "summary": "Simple Todo App made with ReactJS and Hooks",
@@ -238,7 +361,7 @@
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image7-min.png",
+              "url": "/project-image10-min.png",
               "size": 1228,
               "width": 32,
               "height": 22
@@ -248,7 +371,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 8,
       "name": "dwb (Youtube Downloader)",
       "displayName": "dwl-ytdl",
       "summary": "A simple HQ mp3/mp4 Youtube Downloader",
@@ -275,7 +398,7 @@
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image6-min.png",
+              "url": "/project-image8-min.png",
               "size": 1228,
               "width": 32,
               "height": 22
@@ -285,7 +408,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 9,
       "name": "Project SAP Landing Web",
       "displayName": "sap-landing-web",
       "summary": "College project - Landing web for a made-up SAP company, Rules were to use ONLY HTML, CSS, bootstrap, and some JS plugins. With this project, I improved my Bootstrap skills and learn about JS plugins and how they work. ",
@@ -301,7 +424,7 @@
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image3-min.jpg",
+              "url": "/project-image6-min.jpg",
               "size": 1228,
               "width": 32,
               "height": 22
@@ -311,7 +434,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 10,
       "name": "Project SAP Home Web",
       "displayName": "sap-home-web",
       "summary": "Homepage from Landing. same rules applied from Landing project.",
@@ -327,7 +450,7 @@
           "resolutions": {
             "micro": {
               "id": 0,
-              "url": "/project-image4-min.png",
+              "url": "/project-image7-min.png",
               "size": 1228,
               "width": 32,
               "height": 22
