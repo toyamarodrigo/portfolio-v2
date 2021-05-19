@@ -112,7 +112,7 @@
   "projects": [
     {
       "id": 0,
-      "name": "Web Development",
+      "name": "Web Development - Skols Solutions",
       "displayName": "web-skols-solutions",
       "summary": "Layout and Development of Website for Skols Solutions. Used of GatsbyJS Framework fot Static Site Generator. Design made by Alvaro Arakaki.",
       "website": "http://bit.ly/rt-skols",
@@ -237,45 +237,6 @@
     },
     {
       "id": 4,
-      "name": "Invoice Management System",
-      "displayName": "invoice-management-system",
-      "summary": "Main objective of this project was managing Customers and their Invoices. Developed all type of CRUD operations, learning Spring Framework and Java in the process also how Hibernate works and the use of Thymeleaf and JQuery.",
-      "website": "https://bit.ly/rt-invoice-v3",
-      "githubUrl": "https://bit.ly/rt-invoice-code",
-      "subtitle": "Used tech",
-      "classPosition": false,
-      "primaryLanguage": "",
-      "languages": ["HTML", "CSS", "Java", "Javascript", "MySQL"],
-      "libraries": [
-        "JQuery",
-        "MD-Bootstrap",
-        "Spring Framework",
-        "Hibernate",
-        "Thymeleaf"
-      ],
-      "images": [
-        {
-          "resolutions": {
-            "micro": {
-              "id": 0,
-              "url": "/project-image1-min.png",
-              "size": 1228,
-              "width": 32,
-              "height": 22
-            }
-          }
-        }
-      ],
-      "videos": [
-        {
-          "url": "https://www.instagram.com/p/B_J0aPyA4qY",
-          "source": "instagram",
-          "sourceId": ""
-        }
-      ]
-    },
-    {
-      "id": 5,
       "name": "Web Portfolio v2",
       "displayName": "my-web-portfolio",
       "summary": "Updated my web portfolio, trying to implement ReactJS and Router on it for learning purposes and to show my projects.",
@@ -307,7 +268,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "React COVID-19",
       "displayName": "react-covid19",
       "summary": "Project for learning purposes, Fetching data from COVID19 API",
@@ -341,7 +302,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Todo App",
       "displayName": "todo-app",
       "summary": "Simple Todo App made with ReactJS and Hooks",
@@ -373,7 +334,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "dwb (Youtube Downloader)",
       "displayName": "dwl-ytdl",
       "summary": "A simple HQ mp3/mp4 Youtube Downloader",
@@ -410,7 +371,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Project SAP Landing Web",
       "displayName": "sap-landing-web",
       "summary": "College project - Landing web for a made-up SAP company, Rules were to use ONLY HTML, CSS, bootstrap, and some JS plugins. With this project, I improved my Bootstrap skills and learn about JS plugins and how they work. ",
@@ -436,7 +397,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Project SAP Home Web",
       "displayName": "sap-home-web",
       "summary": "Homepage from Landing. same rules applied from Landing project.",
