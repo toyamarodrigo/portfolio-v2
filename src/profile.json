@@ -243,7 +243,7 @@
       "website": "https://bit.ly/rt-portfolio",
       "githubUrl": "https://bit.ly/rt-portfolio-code",
       "subtitle": "Used tech",
-      "classPosition": "flex-row-reverse",
+      "classPosition": false,
       "primaryLanguage": "",
       "languages": ["HTML", "SCSS", "Javascript"],
       "libraries": [
@@ -275,7 +275,7 @@
       "website": "https://bit.ly/rt-react-covid",
       "githubUrl": "https://bit.ly/rt-react-covid-code",
       "subtitle": "Used tech",
-      "classPosition": false,
+      "classPosition": "flex-row-reverse",
       "primaryLanguage": "",
       "languages": ["HTML", "CSS", "Javascript", "JSX"],
       "libraries": [
@@ -309,7 +309,7 @@
       "website": "https://rt-todo-app.netlify.app/",
       "githubUrl": "https://github.com/toyamarodrigo/todo-app",
       "subtitle": "Used tech",
-      "classPosition": "flex-row-reverse",
+      "classPosition": false,
       "primaryLanguage": "",
       "languages": ["HTML", "CSS", "Javascript", "JSX"],
       "libraries": [
@@ -341,7 +341,7 @@
       "website": "https://rt-dwb-app.herokuapp.com/",
       "githubUrl": "https://github.com/toyamarodrigo/dwb-app",
       "subtitle": "Used tech",
-      "classPosition": false,
+      "classPosition": "flex-row-reverse",
       "primaryLanguage": "",
       "languages": ["HTML", "SCSS", "Javascript", "JSX"],
       "libraries": [
@@ -378,7 +378,7 @@
       "website": "https://bit.ly/rt-sap-landing",
       "githubUrl": "https://bit.ly/rt-sap-landing-code",
       "subtitle": "Used tech",
-      "classPosition": "flex-row-reverse",
+      "classPosition": false,
       "primaryLanguage": "",
       "languages": ["HTML", "CSS", "Javascript"],
       "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
@@ -404,7 +404,7 @@
       "website": "https://bit.ly/rt-sap-homesite",
       "githubUrl": "https://bit.ly/rt-sap-homesite-code",
       "subtitle": "Used tech",
-      "classPosition": false,
+      "classPosition": "flex-row-reverse",
       "primaryLanguage": "",
       "languages": ["HTML", "CSS", "Javascript"],
       "libraries": ["Bootstrap", "Wow.js", "Fancybox.js"],
